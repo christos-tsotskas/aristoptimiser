@@ -1,3 +1,28 @@
+#Copyright 2020-present Christos Tsotskas
+#
+#travisCI configuration, part of aristoptimiser, https://github.com/christos-tsotskas/aristoptimiser
+#
+#Licensed under the Apache License, Version 2.0 (the "License");
+#you may not use this file except in compliance with the License.
+#You may obtain a copy of the License at
+#http://www.apache.org/licenses/LICENSE-2.0
+#
+#Unless required by applicable law or agreed to in writing, software
+#distributed under the License is distributed on an "AS IS" BASIS,
+#WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#
+#Apache 2.0
+#
+#Leader author: Christos Tsotskas
+#Created by christos at 11/04/2020
+
+
+
+sudo: required
+services
+- docker
+
+
 language: python
 
 python:
@@ -15,3 +40,9 @@ script:
 #  - python -m unittest discover -s test -v #approach 1
 #  - pytest #approach 2
   - python -m pytest -v test/test_configuration_of_optimiser.py #approach 3
+#linting test
+#- flake
+
+
+after_success:
+- sh .travis/deploy_dockerhub.sh

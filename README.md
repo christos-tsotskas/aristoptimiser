@@ -6,6 +6,13 @@ Solver for an optimisation problem
 
 # todo
 - add coverage reports
+```bash
+            coverage run src/FizzBuzzer/testFizzBuzzer.py
+            coverage report -m
+            coverage html
+            coverage xml -i
+```
+
 - build containers and registry
 - deploy on heroku (https://docs.travis-ci.com/user/deployment/heroku/)
 - log better/more structured
