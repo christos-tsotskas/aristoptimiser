@@ -36,6 +36,7 @@ from flask import Flask, request, jsonify
 
 from OptimiserConfigurator import OptimiserConfigurator
 import json
+import os
 
 app = Flask(__name__)
 
@@ -89,4 +90,4 @@ def configure_optimiser():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5002)
+    app.run(host='127.0.0.1', port=int(os.getenv('PORT', 5000)))

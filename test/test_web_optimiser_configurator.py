@@ -6,7 +6,7 @@ import os
 
 class TestCaseForWebOptimiserConfigurator(unittest.TestCase):
     __URI = 'localhost'
-    __port = 5002
+    __port = 5000
 
 
     def get_filepath_from_resouces_starting_from_tests_directory(self, target_filename):
