@@ -37,6 +37,26 @@ from flask import Flask, request, jsonify
 from OptimiserConfigurator import OptimiserConfigurator
 import json
 import os
+import logging
+from logging.handlers import RotatingFileHandler
+
+from logging.config import dictConfig
+
+dictConfig({
+    'version': 1,
+    'formatters': {'default': {
+        'format': '[%(asctime)s] %(levelname)s in %(module)s: %(message)s',
+    }},
+    'handlers': {'wsgi': {
+        'class': 'logging.StreamHandler',
+        'stream': 'ext://flask.logging.wsgi_errors_stream',
+        'formatter': 'default'
+    }},
+    'root': {
+        'level': 'INFO',
+        'handlers': ['wsgi']
+    }
+})
 
 app = Flask(__name__)
 
@@ -90,4 +110,9 @@ def configure_optimiser():
 
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=int(os.getenv('PORT', 5000)))
+    filename_for_log = "web_optimiser_configurator" +".log"
+    handler = RotatingFileHandler(filename_for_log, maxBytes=10000, backupCount=1)
+    handler.setLevel(logging.ERROR)
+    app.logger.addHandler(handler)
+    # app.run(host='127.0.0.1', port=int(os.getenv('PORT', 5000)))
+    app.run(host='127.0.0.1', port=3000)

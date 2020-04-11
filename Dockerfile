@@ -5,5 +5,15 @@ WORKDIR /app
 RUN ls -al
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt
-ENTRYPOINT ["python"]
-CMD ["aristoptimiser/web_optimiser_configuration.py"]
+
+EXPOSE 3000
+
+#ENTRYPOINT ["python3"]
+#CMD ["aristoptimiser/web_optimiser_configuration.py"]
+
+#CMD ["python3","aristoptimiser","web_optimiser_configuration.py"]
+
+#RUN which python
+#RUN which python3
+#CMD ["python", "aristoptimiser/web_optimiser_configuration.py"]
+CMD python aristoptimiser/web_optimiser_configuration.py

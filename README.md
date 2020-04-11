@@ -32,3 +32,23 @@ Solver for an optimisation problem
 - see more from travis ( https://docs.travis-ci.com/user/tutorial/)
 - additional rules (https://flask.palletsprojects.com/en/1.1.x/api/)
 - check https://www.fullstackpython.com/api-creation.html
+
+#Utilities
+
+## connect to container via ssh
+```bash
+docker run -d -p 22 mysnapshot /usr/sbin/sshd -D
+```
+
+###approach2
+run
+```bash
+docker exec -it busy_williamson bash
+```
+
+and then connect with
+```bash
+docker exec -it busy_williamson bash
+```
+
+carry on from http://bobcares.com/blog/docker-port-expose/
