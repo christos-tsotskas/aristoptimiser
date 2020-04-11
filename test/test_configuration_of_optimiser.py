@@ -34,11 +34,16 @@ __status__ = 'Prototype'
 
 import unittest
 import json
+import os
 
 from aristoptimiser.utilities import generate_base_configuration_to_a_file
-
+from aristoptimiser.OptimiserConfigurator import OptimiserConfigurator
 
 class MyTestCase(unittest.TestCase):
+    def setUp(self):
+
+        pass
+
     def tearDown(self):
         pass
 
@@ -64,8 +69,6 @@ class MyTestCase(unittest.TestCase):
         test_filename = "test2.json"
         check = False
 
-
-
         generate_base_configuration_to_a_file(test_filename)
 
         with open(test_filename, "r") as read_file:
@@ -74,6 +77,65 @@ class MyTestCase(unittest.TestCase):
             for decision_variable in data["settings_for_optimiser"]["starting_point"].items():
                 check = self.is_decision_variable_within_its_bounds(decision_variable[0], decision_variable[1], data["decision_variables"])
                 self.assertTrue(check)
+
+    def get_filepath_from_resouces_starting_from_tests_directory(self, target_filename):
+        here = __file__
+        path_to_tests, this_file = os.path.split(here)
+        path_to_root, dummy = os.path.split(path_to_tests)
+        path_to_target_file = os.path.join(path_to_root, 'resources', target_filename)
+
+        return path_to_target_file
+
+    def test_good_configuration_file(self):
+
+        path_to_target_file = self.get_filepath_from_resouces_starting_from_tests_directory('small_good_configuration.json')
+
+        with open(path_to_target_file, "r") as read_file:
+            data = json.load(read_file)
+
+            for decision_variable in data["settings_for_optimiser"]["starting_point"].items():
+                check = self.is_decision_variable_within_its_bounds(decision_variable[0], decision_variable[1],
+                                                                    data["decision_variables"])
+                self.assertTrue(check)
+
+
+    def test_good_configuration_file_by_using_OptimiserConfigurator(self):
+
+
+        path_to_target_file = self.get_filepath_from_resouces_starting_from_tests_directory('small_good_configuration.json')
+
+        testClass = OptimiserConfigurator(path_to_target_file)
+
+        self.assertTrue(testClass.are_all_decision_variables_within_range())
+
+    def test_bad_configuration_file_by_using_OptimiserConfigurator(self):
+
+
+        path_to_target_file = self.get_filepath_from_resouces_starting_from_tests_directory('small_bad_configuration.json')
+
+        testClass = OptimiserConfigurator(path_to_target_file)
+
+        self.assertFalse(testClass.are_all_decision_variables_within_range())
+
+
+    def test_bad_configuration_file(self):
+        number_of_expected_bad_decision_variables = 2
+        currently_found_bad_decision_variables = 0
+
+        path_to_target_file = self.get_filepath_from_resouces_starting_from_tests_directory(
+            'small_bad_configuration.json')
+
+        with open(path_to_target_file, "r") as read_file:
+            data = json.load(read_file)
+
+            for decision_variable in data["settings_for_optimiser"]["starting_point"].items():
+                check = self.is_decision_variable_within_its_bounds(decision_variable[0], decision_variable[1],
+                                                                    data["decision_variables"])
+                if check == False:
+                    currently_found_bad_decision_variables += 1
+
+        self.assertEqual(currently_found_bad_decision_variables, number_of_expected_bad_decision_variables)
+
 
 
 if __name__ == '__main__':

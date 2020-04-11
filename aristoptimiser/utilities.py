@@ -47,8 +47,8 @@ def generate_base_configuration():
         "settings_for_optimiser":{
             "optimiser": "MOTS4",
             "starting_point": {
-                "just first":3.3,
-                "secundo":6.2,
+                "just first":1.3,
+                "secundo":5.2,
                 "tria":9.4
             }
         }
@@ -59,7 +59,7 @@ def generate_base_configuration():
 
 def generate_base_configuration_to_a_file(name_of_output_file):
     '''
-    :name_of_output_file: string of a filename
+    :param name_of_output_file: string of a filename
 
     :return: configuration in json format
     '''
@@ -75,4 +75,4 @@ def generate_base_configuration_to_a_file(name_of_output_file):
         json.dump(outpute_data, write_file, indent=4)
 
 if __name__ == "__main__":
-    generate_base_configuration_to_a_file("data3.json")
+    generate_base_configuration_to_a_file("small_bad_configuration.json")
