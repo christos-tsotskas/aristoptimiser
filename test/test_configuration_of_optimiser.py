@@ -104,7 +104,7 @@ class MyTestCase(unittest.TestCase):
 
         path_to_target_file = self.get_filepath_from_resouces_starting_from_tests_directory('small_good_configuration.json')
 
-        testClass = OptimiserConfigurator(path_to_target_file)
+        testClass = OptimiserConfigurator(path_to_configuration_filename=path_to_target_file)
 
         self.assertTrue(testClass.are_all_decision_variables_within_range())
 
@@ -113,7 +113,7 @@ class MyTestCase(unittest.TestCase):
 
         path_to_target_file = self.get_filepath_from_resouces_starting_from_tests_directory('small_bad_configuration.json')
 
-        testClass = OptimiserConfigurator(path_to_target_file)
+        testClass = OptimiserConfigurator(path_to_configuration_filename=path_to_target_file)
 
         self.assertFalse(testClass.are_all_decision_variables_within_range())
 

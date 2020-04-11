@@ -32,6 +32,7 @@ __status__ = 'Prototype'
 
 
 import json
+import os
 
 #todo add functionality to throw exceptions for bad inputs
 
@@ -90,14 +91,22 @@ class OptimiserConfigurator:
 
         return check
 
-    def __init__(self, configuration_filename):
+    def __init__(self, path_to_configuration_filename=None, json_object=None ):
         '''
 
-        :param configuration_filename: path to configuration file as a string
+        :param path_to_configuration_filename: path to configuration file as a string
         '''
 
-        with open(configuration_filename, "r") as read_file:
-            self.configuration = json.load(read_file)
+        if path_to_configuration_filename == None and json_object == None:
+            exit('at least one should be provided')
+
+        if path_to_configuration_filename != None and json_object == None :
+            if os.path.isfile(path_to_configuration_filename):
+                with open(path_to_configuration_filename, "r") as read_file:
+                    self.configuration = json.load(read_file)
+        if path_to_configuration_filename == None and json_object != None:
+
+            self.configuration = json.loads(json_object)
 
 
 
