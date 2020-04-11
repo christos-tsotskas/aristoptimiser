@@ -33,6 +33,8 @@ __status__ = 'Prototype'
 
 import json
 
+#todo add functionality to throw exceptions for bad inputs
+
 class OptimiserConfigurator:
     '''
 
