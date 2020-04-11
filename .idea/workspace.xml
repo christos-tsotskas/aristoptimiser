@@ -2,55 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e36e1618-d1e0-4a8d-929a-ef606e48c80a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aristoptimiser.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aristoptimiser/utilities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/activate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/activate.csh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/activate.fish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/easy_install" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/easy_install-3.6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/f2py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/f2py3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/f2py3.6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/iptest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/iptest3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/ipython" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/ipython3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/jsonschema" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/jupyter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/jupyter-bundlerextension" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/jupyter-console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/jupyter-kernel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/jupyter-kernelspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/jupyter-migrate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/jupyter-nbconvert" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/jupyter-nbextension" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/jupyter-notebook" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/jupyter-qtconsole" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/jupyter-run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/jupyter-serverextension" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/jupyter-troubleshoot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/jupyter-trust" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/pip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/pip3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/pip3.6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/pygmentize" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/python" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/python3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/python3.6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/etc/jupyter/nbconfig/notebook.d/widgetsnbextension.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/lib64" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/pyvenv.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/share/jupyter/kernels/python3/kernel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/share/jupyter/kernels/python3/logo-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/share/jupyter/kernels/python3/logo-64x64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/share/jupyter/nbextensions/jupyter-js-widgets/extension.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/share/jupyter/nbextensions/jupyter-js-widgets/extension.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/share/man/man1/ipython.1.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/aristoptimiser_copyright.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/christos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aristoptimiser/OptimiserConfigurator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_configuration_of_optimiser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aristoptimiser/aristo_memory.py" beforeDir="false" afterPath="$PROJECT_DIR$/aristoptimiser/aristo_memory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aristoptimiser/utilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/aristoptimiser/utilities.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,43 +17,80 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aristoptimiser/starter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aristoptimiser/aristo_memory.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aristoptimiser/utilities.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.65902233">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/aristoptimiser/starter.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/aristoptimiser/aristo_memory.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="286">
+                  <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/aristoptimiser/OptimiserConfigurator.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-127">
+                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/aristoptimiser/data3.json">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/test_configuration_of_optimiser.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="401">
+                  <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+                  <folding>
+                    <element signature="e#926#941#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/aristoptimiser/utilities.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="198">
+                  <caret line="42" column="84" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="84" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="pyoptimiser_script" />
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+        <option value="aristoptimiser_script" />
       </list>
     </option>
+    <option name="SCHEME" value="Project" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,9 +104,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/aristoptimiser/aristo_memory.py" />
         <option value="$PROJECT_DIR$/aristoptimiser/starter.py" />
         <option value="$PROJECT_DIR$/aristoptimiser/utilities.py" />
+        <option value="$PROJECT_DIR$/aristoptimiser/optimiser_configurator.py" />
+        <option value="$PROJECT_DIR$/aristoptimiser/aristo_memory.py" />
+        <option value="$PROJECT_DIR$/aristoptimiser/OptimiserConfigurator.py" />
+        <option value="$PROJECT_DIR$/test/test_configuration_of_optimiser.py" />
       </list>
     </option>
   </component>
@@ -137,7 +135,17 @@
             <path>
               <item name="aristoptimiser" type="b2602c69:ProjectViewProjectNode" />
               <item name="aristoptimiser" type="462c0819:PsiDirectoryNode" />
+              <item name="aristoptimiser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aristoptimiser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aristoptimiser" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aristoptimiser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aristoptimiser" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.utilities">
+  <component name="RunManager" selected="Python tests.Unittests in test_configuration_of_optimiser.py">
     <configuration name="starter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="aristoptimiser" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,8 +212,68 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_configuration_of_optimiser.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="aristoptimiser" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_configuration_of_optimiser.MyTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_configuration_of_optimiser.MyTestCase.test_starting_point_is_within_range" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="aristoptimiser" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_configuration_of_optimiser.MyTestCase.test_starting_point_is_within_range&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_configuration_of_optimiser.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="aristoptimiser" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_configuration_of_optimiser.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_configuration" type="tests" factoryName="Unittests">
+      <module name="aristoptimiser" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_configuration_of_optimiser.py" />
+        <item itemvalue="Python tests.Unittests for test_configuration_of_optimiser.MyTestCase" />
+        <item itemvalue="Python tests.Unittests for test_configuration_of_optimiser.MyTestCase.test_starting_point_is_within_range" />
         <item itemvalue="Python.utilities" />
         <item itemvalue="Python.starter" />
       </list>
@@ -231,22 +299,62 @@
       <option name="project" value="LOCAL" />
       <updated>1586592102707</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added example configuration file in utilities">
+      <created>1586594889658</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586594889658</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_configuration_of_optimiser_MyTestCase_test_starting_point_is_within_range - 2020.04.11 at 10h 37m 50s.xml">
+      <configuration name="Unittests for test_configuration_of_optimiser.MyTestCase.test_starting_point_is_within_range" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_configuration_of_optimiser_py - 2020.04.11 at 10h 38m 02s.xml">
+      <configuration name="Unittests in test_configuration_of_optimiser.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_configuration_of_optimiser_MyTestCase_test_starting_point_is_within_range - 2020.04.11 at 10h 41m 26s.xml">
+      <configuration name="Unittests for test_configuration_of_optimiser.MyTestCase.test_starting_point_is_within_range" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_configuration_of_optimiser_MyTestCase_test_starting_point_is_within_range - 2020.04.11 at 11h 00m 13s.xml">
+      <configuration name="Unittests for test_configuration_of_optimiser.MyTestCase.test_starting_point_is_within_range" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_configuration_of_optimiser_MyTestCase_test_starting_point_is_within_range - 2020.04.11 at 11h 00m 26s.xml">
+      <configuration name="Unittests for test_configuration_of_optimiser.MyTestCase.test_starting_point_is_within_range" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_configuration_of_optimiser_MyTestCase_test_starting_point_is_within_range - 2020.04.11 at 11h 00m 39s.xml">
+      <configuration name="Unittests for test_configuration_of_optimiser.MyTestCase.test_starting_point_is_within_range" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_configuration_of_optimiser_MyTestCase_test_starting_point_is_within_range - 2020.04.11 at 11h 02m 44s.xml">
+      <configuration name="Unittests for test_configuration_of_optimiser.MyTestCase.test_starting_point_is_within_range" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_configuration_of_optimiser_MyTestCase_test_starting_point_is_within_range - 2020.04.11 at 11h 02m 54s.xml">
+      <configuration name="Unittests for test_configuration_of_optimiser.MyTestCase.test_starting_point_is_within_range" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_configuration_of_optimiser_MyTestCase_test_starting_point_is_within_range - 2020.04.11 at 11h 04m 05s.xml">
+      <configuration name="Unittests for test_configuration_of_optimiser.MyTestCase.test_starting_point_is_within_range" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_configuration_of_optimiser_MyTestCase_test_starting_point_is_within_range - 2020.04.11 at 11h 09m 34s.xml">
+      <configuration name="Unittests for test_configuration_of_optimiser.MyTestCase.test_starting_point_is_within_range" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="1105" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.09453552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -255,10 +363,30 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.09453552" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Python Console" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit!" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit!" />
+    <MESSAGE value="added example configuration file in utilities" />
+    <option name="LAST_COMMIT_MESSAGE" value="added example configuration file in utilities" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/aristoptimiser/starter.py">
@@ -268,19 +396,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/aristoptimiser/data_file.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" lean-forward="true" selection-start-column="40" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aristoptimiser/data3.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aristoptimiser/optimiser_configurator.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/aristoptimiser/aristo_memory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="286">
+          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aristoptimiser/OptimiserConfigurator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aristoptimiser/utilities.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        <state relative-caret-position="198">
+          <caret line="42" column="84" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="84" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_configuration_of_optimiser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#926#941#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>aristoptimiser_copyright</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

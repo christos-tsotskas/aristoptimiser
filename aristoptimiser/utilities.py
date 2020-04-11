@@ -2,7 +2,9 @@
 # -*- coding: utf-8 -*-
 
 """
-Utilities, part of aristoptimiser, https://github.com/christos-tsotskas/aristoptimiser
+Copyright 2020-present Christos Tsotskas
+
+Utilities part of aristoptimiser, https://github.com/christos-tsotskas/aristoptimiser
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -17,6 +19,8 @@ Apache 2.0
 
 Leader author: Christos Tsotskas
 
+
+
 """
 
 __author__ = 'Christos Tsotskas'
@@ -30,28 +34,45 @@ __status__ = 'Prototype'
 
 import json
 
+
 def generate_base_configuration():
 
     example_output = {
         "name": "just a name",
         "decision_variables": [
             {"name": "just first", "type": "real", "lower_bound": 1.0, "upper_bound": 100.3},
-            {"name": "secundo", "type": "real", "lower_bound": 4.1, "upper_bound": 32.3}
+            {"name": "secundo", "type": "real", "lower_bound": 4.1, "upper_bound": 32.3},
+            {"name": "tria", "type": "real", "lower_bound": -3.1, "upper_bound": 12.9}
         ],
         "settings_for_optimiser":{
             "optimiser": "MOTS4",
-            "starting_point": [
-                3.3,
-                6.2
-            ]
+            "starting_point": {
+                "just first":3.3,
+                "secundo":6.2,
+                "tria":9.4
+            }
         }
 
     }
 
+    return json.dumps(example_output)
+
+def generate_base_configuration_to_a_file(name_of_output_file):
+    '''
+    :name_of_output_file: string of a filename
+
+    :return: configuration in json format
+    '''
+    #todo the configuration always assumes equality in the bounds
+    #todo if starting point is dict, the order of variables could be any,
+    #todo if starting point is an array, it is assumed that the order of variables matches the decion variables
+    intermediate_data = generate_base_configuration()
+
+    outpute_data = json.loads(intermediate_data)
 
 
-    print(json.dumps(example_output, sort_keys=True, indent=4))
-
+    with open(name_of_output_file, "w") as write_file:
+        json.dump(outpute_data, write_file, indent=4)
 
 if __name__ == "__main__":
-    generate_base_configuration()
+    generate_base_configuration_to_a_file("data3.json")
