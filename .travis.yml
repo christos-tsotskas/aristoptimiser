@@ -12,5 +12,6 @@ install:
   - pip install -r requirements.txt
 # command to run tests
 script:
-#  - python -m unittest discover -s test -v
-  - pytest
+#  - python -m unittest discover -s test -v #approach 1
+#  - pytest #approach 2
+  - python -m pytest -v test/test_configuration_of_optimiser.py #approach 3

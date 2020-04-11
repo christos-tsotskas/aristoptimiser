@@ -20,6 +20,8 @@ Solver for an optimisation problem
 
 
 # R&D
-- possibly use Nameko for microservices
+- possibly use Nameko for microservices (https://www.toptal.com/python/introduction-python-microservices-nameko)
 - better client than ( https://docs.python.org/3/library/http.client.html)
 - see more from travis ( https://docs.travis-ci.com/user/tutorial/)
+- additional rules (https://flask.palletsprojects.com/en/1.1.x/api/)
+- check https://www.fullstackpython.com/api-creation.html
