@@ -42,6 +42,10 @@ script:
   - python -m pytest -v test/test_configuration_of_optimiser.py #approach 3
 #linting test
 #- flake
+  - python -m coverage run aristoptimiser/OptimiserConfigurator.py
+  - python -m coverage report -m
+  - python -m coverage xml -i
+
 
 
 after_success:
