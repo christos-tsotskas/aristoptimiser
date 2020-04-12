@@ -1,21 +1,51 @@
 version: 2.1
 
+
 orbs:
-  python: circleci/python@0.2.1
-
-jobs:
-  build-and-test:
-    executor: python/default
-    steps:
-      - checkout
-      - python/load-cache
-      - python/install-deps
-      - python/save-cache
-      - run:
-          command: ./manage.py test
-          name: Test
-
+  sonarcloud: sonarsource/sonarcloud@1.0.1
 workflows:
   main:
     jobs:
-      - build-and-test
+      - build:
+          context: SonarCloud
+
+jobs:
+  build:
+    docker:
+
+      - image: circleci/python:3.6.1
+
+    steps:
+      - checkout
+
+
+      - run:
+          name: install dependencies
+          command: |
+            pwd
+            ls
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install -r requirements.txt
+
+      - run:
+          name: run tests
+          command: |
+            . venv/bin/activate
+            python -m pytest -v test/test_configuration_of_optimiser.py #approach 3
+            coverage run aristoptimiser/OptimiserConfigurator.py
+            coverage report -m
+            coverage html
+            coverage xml -i
+      - store_artifacts:
+          path: htmlcov
+
+      - store_artifacts:
+          path: test-reports
+          destination: test-reports
+
+      - store_test_results:
+          path: test-reports
+
+      - sonarcloud/scan
+
