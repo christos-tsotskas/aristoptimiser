@@ -7,6 +7,7 @@ import os
 class TestCaseForWebOptimiserConfigurator(unittest.TestCase):
     __URI = 'localhost'
     __port = 5000
+    __HTTP_header_for_json = {'Content-type': 'application/json'}
 
 
     def get_filepath_from_resouces_starting_from_tests_directory(self, target_filename):
@@ -23,21 +24,21 @@ class TestCaseForWebOptimiserConfigurator(unittest.TestCase):
 
         print(connection)
 
-        headers = {'Content-type': 'application/json'}
+
 
         path_to_target_file = self.get_filepath_from_resouces_starting_from_tests_directory('small_good_configuration.json')
         with open(path_to_target_file, "r") as read_file:
             data = json.load(read_file)
 
-            # foo = {'text': 'Hello HTTP #1 **cool**, and #1!'}
+
             json_data = json.dumps(data)
 
-            connection.request("POST", "/configure_optimiser/", json_data, headers)
+            connection.request("POST", "/configure_optimiser/", json_data, self.__HTTP_header_for_json)
             response = connection.getresponse()
 
-            headers = response.getheaders()
+            headers_from_the_service = response.getheaders()
             pp = pprint.PrettyPrinter(indent=4)
-            pp.pprint("Headers: {}".format(headers))
+            pp.pprint("Headers: {}".format(headers_from_the_service))
             print("Status: {} and reason: {}".format(response.status, response.reason))
 
             print(response.read().decode())
@@ -51,16 +52,16 @@ class TestCaseForWebOptimiserConfigurator(unittest.TestCase):
 
         print(connection)
 
-        headers = {'Content-type': 'application/json'}
+
 
         path_to_target_file = self.get_filepath_from_resouces_starting_from_tests_directory('small_bad_configuration.json')
         with open(path_to_target_file, "r") as read_file:
             data = json.load(read_file)
 
-            # foo = {'text': 'Hello HTTP #1 **cool**, and #1!'}
+
             json_data = json.dumps(data)
 
-            connection.request("POST", "/configure_optimiser/", json_data, headers)
+            connection.request("POST", "/configure_optimiser/", json_data, self.__HTTP_header_for_json)
             response = connection.getresponse()
 
             headers = response.getheaders()
