@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
+Copyright 2020-present Christos Tsotskas
+
 aristo_memory, part of aristoptimiser, https://github.com/christos-tsotskas/aristoptimiser
 
 Licensed under the Apache License, Version 2.0 (the "License");
