@@ -36,6 +36,7 @@ Solver for an optimisation problem
 #Utilities
 
 ## connect to container via ssh
+###approach 1
 ```bash
 docker run -d -p 22 mysnapshot /usr/sbin/sshd -D
 ```
@@ -52,3 +53,15 @@ docker exec -it busy_williamson bash
 ```
 
 carry on from http://bobcares.com/blog/docker-port-expose/
+
+#Instructions to build the service
+
+build with
+```bash
+docker build --no-cache -t web_optimiser:latest -f Dockerfile .
+```
+
+run with
+```bash
+docker run -d -p 5000:5000 web_optimiser:latest
+```

@@ -1,19 +1,11 @@
-FROM python:3
-MAINTAINER Christos Tsotskas <c.tsotskas@gmail.com>
+FROM ubuntu:18.04
+RUN apt-get update -y
+#RUN apt-get install -y python-pip python-dev build-essential
+RUN apt-get install -y python3.6 python3-pip
 COPY . /app
 WORKDIR /app
-RUN ls -al
-RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt
-
-EXPOSE 3000
-
 #ENTRYPOINT ["python3"]
-#CMD ["aristoptimiser/web_optimiser_configuration.py"]
+#CMD ["python3", "app.py"]  #worked
 
-#CMD ["python3","aristoptimiser","web_optimiser_configuration.py"]
-
-#RUN which python
-#RUN which python3
-#CMD ["python", "aristoptimiser/web_optimiser_configuration.py"]
-CMD python aristoptimiser/web_optimiser_configuration.py
+CMD ["python3", "aristoptimiser/web_optimiser_configuration.py"]
