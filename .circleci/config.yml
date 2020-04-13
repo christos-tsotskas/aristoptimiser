@@ -51,6 +51,10 @@ jobs:
             pipenv run coverage report -m
             pipenv run coverage html
             pipenv run coverage xml -i
+            ls -al
+
+      - store_artifacts:
+          path: coverage.xml
 
       - store_artifacts:
           path: htmlcov

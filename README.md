@@ -23,6 +23,7 @@ github -> circleCI -> sonarcloud -> docker -> heroku
 - better settings on travis per branch ( https://docs.travis-ci.com/user/languages/python/ )
 - add all other classes from (https://dspace.lib.cranfield.ac.uk/bitstream/handle/1826/12354/Tsotskas_C_2016.pdf?sequence=1&isAllowed=y)
 - push sonarcloud analysis to github at the end of circleCI
+- on circleci store test coverage results as an artifact
 
 # R&D
 - possibly use Nameko for microservices (https://www.toptal.com/python/introduction-python-microservices-nameko)
