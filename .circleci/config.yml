@@ -26,11 +26,7 @@ jobs:
             which python
             ls
             sudo pip install pipenv
-#            python3 -m venv venv
-#            . venv/bin/activate
-
             pipenv install
-#            pipenv lock
             ls -al
 
 #      - run: #original dependencies

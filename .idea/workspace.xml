@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e36e1618-d1e0-4a8d-929a-ef606e48c80a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +69,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="418">
-                  <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+                <state relative-caret-position="286">
+                  <caret line="25" column="23" lean-forward="true" selection-end-line="72" />
                 </state>
               </provider>
             </entry>
@@ -589,7 +586,28 @@
       <option name="project" value="LOCAL" />
       <updated>1586801771520</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="switched to pipenv">
+      <created>1586804529471</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1586804529471</updated>
+    </task>
+    <task id="LOCAL-00030" summary="switched to pipenv">
+      <created>1586804747025</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1586804747025</updated>
+    </task>
+    <task id="LOCAL-00031" summary="switched to pipenv">
+      <created>1586804987936</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1586804987936</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -626,6 +644,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="1105" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.13661203" />
@@ -648,7 +667,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit!" />
     <MESSAGE value="added example configuration file in utilities" />
     <MESSAGE value="tested true positive configuration" />
     <MESSAGE value="tested true positive configuration via class" />
@@ -673,7 +691,8 @@
     <MESSAGE value="fixing sonar on circleCI" />
     <MESSAGE value="attempted to cache dependences on CircleCI" />
     <MESSAGE value="attempted to cache dependencies on CircleCI" />
-    <option name="LAST_COMMIT_MESSAGE" value="attempted to cache dependencies on CircleCI" />
+    <MESSAGE value="switched to pipenv" />
+    <option name="LAST_COMMIT_MESSAGE" value="switched to pipenv" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -927,8 +946,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+        <state relative-caret-position="286">
+          <caret line="25" column="23" lean-forward="true" selection-end-line="72" />
         </state>
       </provider>
     </entry>
