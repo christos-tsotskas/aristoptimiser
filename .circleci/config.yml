@@ -54,7 +54,9 @@ jobs:
           command: |
             which python
             python --version
-            pipenv shell
+            . venv/bin/activate
+            which python
+            python --version
             python -m pytest -v test/test_configuration_of_optimiser.py
             coverage run aristoptimiser/OptimiserConfigurator.py
             coverage report -m
