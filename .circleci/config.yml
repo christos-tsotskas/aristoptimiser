@@ -4,6 +4,12 @@ version: 2.1
 orbs:
   sonarcloud: sonarsource/sonarcloud@1.0.1
 
+workflows:
+  main:
+    jobs:
+      - build:
+          context: SonarCloud
+
 
 jobs:
   build:
@@ -30,18 +36,6 @@ jobs:
             sudo pip install pipenv
             pipenv install
             ls -al
-
-#      - run: #original dependencies
-#          name: install dependencies
-#          command: |
-#            pwd
-#            ls
-#            python3 -m venv venv
-#            . venv/bin/activate
-#
-#            pip install -r requirements.txt
-##            pip lock
-#            ls -al
 
       - save_cache:
           key: python36-dependencies-{{ .Branch }}-{{ checksum "Pipfile.lock" }}
