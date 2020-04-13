@@ -55,6 +55,7 @@ jobs:
 
       - store_artifacts:
           path: coverage.xml
+          path: .coverage
 
       - store_artifacts:
           path: htmlcov
