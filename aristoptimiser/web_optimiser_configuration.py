@@ -65,11 +65,6 @@ def hello():
     user_agent = request.headers.get('User-Agent')
     return 'Optimiser at your service! I see you are using %s' % user_agent
 
-@app.route('/message')
-def agaph():
-    user_agent = request.headers.get('User-Agent')
-    return 'To paki s agapaei kotoula!!!!1! I see you are using %s' % user_agent
-
 
 @app.route('/serve_data/', methods=['POST'])
 def serve_data():
