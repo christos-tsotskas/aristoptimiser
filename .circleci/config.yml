@@ -51,7 +51,7 @@ jobs:
           name: run unit tests
           command: |
             which python
-            . venv/bin/activate
+            python --version
             python -m pytest -v test/test_configuration_of_optimiser.py #approach 3
             coverage run aristoptimiser/OptimiserConfigurator.py
             coverage report -m
