@@ -13,7 +13,9 @@ jobs:
   build:
     docker:
 
-      - image: circleci/python:3.6.1
+      - image: circleci/python:3.6.4
+        environment:
+          PIPENV_VENV_IN_PROJECT: true
 
     steps:
       - checkout
@@ -25,12 +27,27 @@ jobs:
           name: install dependencies
           command: |
             pwd
+            which python
             ls
-            python3 -m venv venv
-            . venv/bin/activate
-            pip install -r requirements.txt
-            pip lock
+            sudo pip install pipenv
+#            python3 -m venv venv
+#            . venv/bin/activate
+
+            pipenv install
+#            pipenv lock
             ls -al
+
+#      - run: #original dependencies
+#          name: install dependencies
+#          command: |
+#            pwd
+#            ls
+#            python3 -m venv venv
+#            . venv/bin/activate
+#
+#            pip install -r requirements.txt
+##            pip lock
+#            ls -al
 
       - save_cache:
           key: deps9-{{ .Branch }}-{{ checksum "Pipfile.lock" }}
@@ -42,6 +59,7 @@ jobs:
       - run:
           name: run unit tests
           command: |
+            wihch python
             . venv/bin/activate
             python -m pytest -v test/test_configuration_of_optimiser.py #approach 3
             coverage run aristoptimiser/OptimiserConfigurator.py
