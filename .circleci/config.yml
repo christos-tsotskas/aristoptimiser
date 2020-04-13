@@ -59,7 +59,7 @@ jobs:
             ls -al test-results
 
       - codecov/upload:
-          file: {{ test-results/coverage.xml }}
+          file: test-results/coverage.xml
 
       - store_artifacts:
           path: coverage.xml

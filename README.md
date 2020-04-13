@@ -24,7 +24,7 @@ github -> circleCI -> sonarcloud -> docker -> heroku
 - add all other classes from (https://dspace.lib.cranfield.ac.uk/bitstream/handle/1826/12354/Tsotskas_C_2016.pdf?sequence=1&isAllowed=y)
 - push sonarcloud analysis to github at the end of circleCI
 - on circleci store test coverage results as an artifact
-- link coverage to https://codecov.io/ with instructions from https://github.com/codecov/example-python
+- link coverage to https://codecov.io/ with instructions from https://github.com/codecov/example-python and https://codecov.io/gh/christos-tsotskas/aristoptimiser
 - add flake8 in the CI pipeline
 
 # R&D
