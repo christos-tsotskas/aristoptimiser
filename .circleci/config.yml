@@ -3,6 +3,7 @@ version: 2.1
 
 orbs:
   sonarcloud: sonarsource/sonarcloud@1.0.1
+  codecov: codecov/codecov@1.0.2
 
 workflows:
   main:
@@ -56,6 +57,9 @@ jobs:
             pipenv run coverage xml -i -o test-results/coverage.xml
             ls -al
             ls -al test-results
+
+      - codecov/upload:
+          file: {{ test-results/coverage.xml }}
 
       - store_artifacts:
           path: coverage.xml
