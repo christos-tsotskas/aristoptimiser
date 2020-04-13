@@ -54,6 +54,7 @@ jobs:
             pipenv run coverage xml -i
             pipenv run coverage xml -i -o test-results/coverage.xml
             ls -al
+            ls -al test-results
 
       - store_artifacts:
           path: coverage.xml
@@ -65,11 +66,11 @@ jobs:
           path: htmlcov
 
       - store_artifacts:
-          path: test-reports
-          destination: test-reports
+          path: test-results
+          destination: test-results
 
       - store_test_results:
-          path: test-reports
+          path: test-results
 
       - sonarcloud/scan
 
