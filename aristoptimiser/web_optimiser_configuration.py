@@ -26,7 +26,7 @@ __author__ = 'Christos Tsotskas'
 __copyright__ = 'Copyright 2020, Aristo'
 __credits__ = ['{credit_list}']
 __license__ = 'Apache'
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 __maintainer__ = 'Christos Tsotskas'
 __email__ = 'c.tsotskas@gmail.com'
 __status__ = 'Prototype'
@@ -64,11 +64,6 @@ app = Flask(__name__)
 def hello():
     user_agent = request.headers.get('User-Agent')
     return 'Optimiser at your service! I see you are using %s' % user_agent
-
-@app.route('/message')
-def agaph():
-    user_agent = request.headers.get('User-Agent')
-    return 'To paki s agapaei kotoula!!!!1! I see you are using %s' % user_agent
 
 
 @app.route('/serve_data/', methods=['POST'])

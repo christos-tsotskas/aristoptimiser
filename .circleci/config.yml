@@ -1,21 +1,82 @@
 version: 2.1
 
-orbs:
-  python: circleci/python@0.2.1
 
-jobs:
-  build-and-test:
-    executor: python/default
-    steps:
-      - checkout
-      - python/load-cache
-      - python/install-deps
-      - python/save-cache
-      - run:
-          command: ./manage.py test
-          name: Test
+orbs:
+  sonarcloud: sonarsource/sonarcloud@1.0.1
+  codecov: codecov/codecov@1.0.2
 
 workflows:
   main:
     jobs:
-      - build-and-test
+      - build:
+          context: SonarCloud
+
+
+jobs:
+  build:
+    docker:
+
+      - image: circleci/python:3.6.4
+        environment:
+          PIPENV_VENV_IN_PROJECT: true
+
+    steps:
+      - checkout
+      - run: sudo chown -R circleci:circleci /usr/local/bin
+      - run: sudo chown -R circleci:circleci /usr/local/lib/python3.6/site-packages
+
+      - restore_cache:  # ensure this step occurs *before* installing dependencies
+          key: python36-dependencies-{{ .Branch }}-{{ checksum "Pipfile.lock" }}
+
+      - run:
+          name: install dependencies
+          command: |
+            pwd
+            which python
+            ls -al
+            sudo pip install pipenv
+            pipenv install
+            ls -al
+
+      - save_cache:
+          key: python36-dependencies-{{ .Branch }}-{{ checksum "Pipfile.lock" }}
+          paths:
+            - "/usr/local/bin"
+            - "/usr/local/lib/python3.6/site-packages"
+
+      - run:
+          name: run unit tests
+          command: |
+            mkdir test-results
+            mkdir test-results/xunit2
+            pipenv run pytest  --junit-xml=test-results/xunit2/results.xml -v test/test_configuration_of_optimiser.py
+            pipenv run coverage run aristoptimiser/OptimiserConfigurator.py
+            pipenv run coverage report -m
+            pipenv run coverage html
+            pipenv run coverage xml -i
+            pipenv run coverage xml -i -o test-results/coverage.xml
+            pipenv run codecov
+            ls -al
+            ls -al test-results
+
+      - codecov/upload:
+          file: test-results/coverage.xml
+
+      - store_artifacts:
+          path: coverage.xml
+
+      - store_artifacts:
+          path: .coverage
+
+      - store_artifacts:
+          path: htmlcov
+
+      - store_artifacts:
+          path: test-results
+          destination: test-results
+
+      - store_test_results:
+          path: test-results
+
+      - sonarcloud/scan
+

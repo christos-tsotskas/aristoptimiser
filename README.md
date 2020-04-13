@@ -3,15 +3,13 @@ optimisation algorithm
 
 Solver for an optimisation problem
 
+# how to contribute
+
+## CI/CD
+
+github -> circleCI -> sonarcloud -> docker -> heroku
 
 # todo
-- add coverage reports
-```bash
-            coverage run src/FizzBuzzer/testFizzBuzzer.py
-            coverage report -m
-            coverage html
-            coverage xml -i
-```
 
 - build containers and registry
 - deploy on heroku (https://docs.travis-ci.com/user/deployment/heroku/)
@@ -24,7 +22,11 @@ Solver for an optimisation problem
 - use better pytest
 - better settings on travis per branch ( https://docs.travis-ci.com/user/languages/python/ )
 - add all other classes from (https://dspace.lib.cranfield.ac.uk/bitstream/handle/1826/12354/Tsotskas_C_2016.pdf?sequence=1&isAllowed=y)
-
+- push sonarcloud analysis to github at the end of circleCI
+- on circleci store test coverage results as an artifact
+- link coverage to https://codecov.io/ with instructions from https://github.com/codecov/example-python and https://codecov.io/gh/christos-tsotskas/aristoptimiser
+- add flake8 in the CI pipeline
+- add some badges
 
 # R&D
 - possibly use Nameko for microservices (https://www.toptal.com/python/introduction-python-microservices-nameko)
@@ -33,15 +35,15 @@ Solver for an optimisation problem
 - additional rules (https://flask.palletsprojects.com/en/1.1.x/api/)
 - check https://www.fullstackpython.com/api-creation.html
 
-#Utilities
+# Utilities
 
 ## connect to container via ssh
-###approach 1
+### approach 1
 ```bash
 docker run -d -p 22 mysnapshot /usr/sbin/sshd -D
 ```
 
-###approach2
+### approach2
 run
 ```bash
 docker exec -it busy_williamson bash
@@ -54,7 +56,7 @@ docker exec -it busy_williamson bash
 
 carry on from http://bobcares.com/blog/docker-port-expose/
 
-#Instructions to build the service
+# Instructions to build the service
 
 build with
 ```bash
