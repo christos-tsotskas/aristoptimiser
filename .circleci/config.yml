@@ -56,7 +56,7 @@ jobs:
             python --version
             which python
             python --version
-            pipenv run which python -m pytest -v test/test_configuration_of_optimiser.py
+            pipenv run pytest -v test/test_configuration_of_optimiser.py
             coverage run aristoptimiser/OptimiserConfigurator.py
             coverage report -m
             coverage html
