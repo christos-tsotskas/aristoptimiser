@@ -56,11 +56,11 @@ jobs:
             python --version
             pipenv shell
             python -m pytest -v test/test_configuration_of_optimiser.py
-#            pipenv run which python -m pytest -v test/test_configuration_of_optimiser.py #approach 3
             coverage run aristoptimiser/OptimiserConfigurator.py
             coverage report -m
             coverage html
             coverage xml -i
+
       - store_artifacts:
           path: htmlcov
 
