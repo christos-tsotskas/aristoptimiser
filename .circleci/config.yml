@@ -10,8 +10,8 @@ jobs:
     docker:
 
       - image: circleci/python:3.6.4
-#        environment:
-#          PIPENV_VENV_IN_PROJECT: true
+        environment:
+          PIPENV_VENV_IN_PROJECT: true
 
     steps:
       - checkout
@@ -51,7 +51,7 @@ jobs:
       - run:
           name: run unit tests
           command: |
-            wihch python
+            which python
             . venv/bin/activate
             python -m pytest -v test/test_configuration_of_optimiser.py #approach 3
             coverage run aristoptimiser/OptimiserConfigurator.py

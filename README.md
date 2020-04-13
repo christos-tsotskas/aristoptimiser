@@ -3,15 +3,13 @@ optimisation algorithm
 
 Solver for an optimisation problem
 
+# how to contribute
+
+## CI/CD
+
+github -> circleCI -> sonarcloud -> docker -> heroku
 
 # todo
-- add coverage reports
-```bash
-            coverage run src/FizzBuzzer/testFizzBuzzer.py
-            coverage report -m
-            coverage html
-            coverage xml -i
-```
 
 - build containers and registry
 - deploy on heroku (https://docs.travis-ci.com/user/deployment/heroku/)
@@ -33,15 +31,15 @@ Solver for an optimisation problem
 - additional rules (https://flask.palletsprojects.com/en/1.1.x/api/)
 - check https://www.fullstackpython.com/api-creation.html
 
-#Utilities
+# Utilities
 
 ## connect to container via ssh
-###approach 1
+### approach 1
 ```bash
 docker run -d -p 22 mysnapshot /usr/sbin/sshd -D
 ```
 
-###approach2
+### approach2
 run
 ```bash
 docker exec -it busy_williamson bash
@@ -54,7 +52,7 @@ docker exec -it busy_williamson bash
 
 carry on from http://bobcares.com/blog/docker-port-expose/
 
-#Instructions to build the service
+# Instructions to build the service
 
 build with
 ```bash
