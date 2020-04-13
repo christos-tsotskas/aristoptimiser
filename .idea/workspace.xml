@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e36e1618-d1e0-4a8d-929a-ef606e48c80a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e36e1618-d1e0-4a8d-929a-ef606e48c80a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4941825">
+    <splitter split-orientation="horizontal" split-proportion="0.55541945">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -69,8 +66,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="132">
-                  <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+                <state relative-caret-position="-215">
+                  <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -78,8 +75,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sonar-projet.properties">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+                <state relative-caret-position="154">
+                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
                 </state>
               </provider>
             </entry>
@@ -558,7 +555,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586798764373</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="fixing circleCI">
+      <created>1586799038886</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1586799038886</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -595,6 +599,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="1105" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.10765027" />
@@ -833,13 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sonar-projet.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements4.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -891,10 +889,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sonar-projet.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="-215">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
         </state>
       </provider>
     </entry>
