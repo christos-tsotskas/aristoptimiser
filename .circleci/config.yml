@@ -46,11 +46,13 @@ jobs:
       - run:
           name: run unit tests
           command: |
+            mkdir test-results
             pipenv run pytest -v test/test_configuration_of_optimiser.py
             pipenv run coverage run aristoptimiser/OptimiserConfigurator.py
             pipenv run coverage report -m
             pipenv run coverage html
             pipenv run coverage xml -i
+            pipenv run coverage xml -i -o test-results/coverage.xml
             ls -al
 
       - store_artifacts:
