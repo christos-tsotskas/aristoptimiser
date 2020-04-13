@@ -17,14 +17,14 @@ jobs:
       - checkout
 
       - restore_cache:  # ensure this step occurs *before* installing dependencies
-          key: deps9-{{ .Branch }}-{{ checksum "Pipfile.lock" }}
+          key: python36-dependencies-{{ .Branch }}-{{ checksum "Pipfile.lock" }}
 
       - run:
           name: install dependencies
           command: |
             pwd
             which python
-            ls
+            ls -al
             sudo pip install pipenv
             pipenv install
             ls -al
@@ -42,9 +42,8 @@ jobs:
 #            ls -al
 
       - save_cache:
-          key: deps9-{{ .Branch }}-{{ checksum "Pipfile.lock" }}
+          key: python36-dependencies-{{ .Branch }}-{{ checksum "Pipfile.lock" }}
           paths:
-            - ".venv"
             - "/usr/local/bin"
             - "/usr/local/lib/python3.6/site-packages"
 
