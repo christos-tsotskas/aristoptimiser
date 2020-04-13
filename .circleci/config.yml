@@ -55,6 +55,7 @@ jobs:
             pipenv run coverage html
             pipenv run coverage xml -i
             pipenv run coverage xml -i -o test-results/coverage.xml
+            pipenv run codecov
             ls -al
             ls -al test-results
 

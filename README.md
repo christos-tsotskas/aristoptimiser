@@ -26,6 +26,7 @@ github -> circleCI -> sonarcloud -> docker -> heroku
 - on circleci store test coverage results as an artifact
 - link coverage to https://codecov.io/ with instructions from https://github.com/codecov/example-python and https://codecov.io/gh/christos-tsotskas/aristoptimiser
 - add flake8 in the CI pipeline
+- add some badges
 
 # R&D
 - possibly use Nameko for microservices (https://www.toptal.com/python/introduction-python-microservices-nameko)
