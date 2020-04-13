@@ -52,15 +52,11 @@ jobs:
       - run:
           name: run unit tests
           command: |
-            which python
-            python --version
-            which python
-            python --version
             pipenv run pytest -v test/test_configuration_of_optimiser.py
-            coverage run aristoptimiser/OptimiserConfigurator.py
-            coverage report -m
-            coverage html
-            coverage xml -i
+            pipenv run coverage run aristoptimiser/OptimiserConfigurator.py
+            pipenv run coverage report -m
+            pipenv run coverage html
+            pipenv run coverage xml -i
 
       - store_artifacts:
           path: htmlcov
