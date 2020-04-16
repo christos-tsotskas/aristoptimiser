@@ -60,10 +60,19 @@ carry on from http://bobcares.com/blog/docker-port-expose/
 
 build with
 ```bash
-docker build --no-cache -t web_optimiser:latest -f Dockerfile .
+docker build --no-cache -t ctsotskas/aristohub:latest -f Dockerfile .
 ```
 
 run with
 ```bash
-docker run -d -p 5000:5000 web_optimiser:latest
+docker run -d -p 5000:5000 ctsotskas/aristohub:latest
+```
+
+
+push
+```bash
+echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin
+docker build --no-cache -t ctsotskas/aristohub:latest -f Dockerfile2 .
+docker push ctsotskas/aristohub:latest
+
 ```
