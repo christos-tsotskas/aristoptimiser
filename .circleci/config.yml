@@ -81,7 +81,7 @@ jobs:
       - sonarcloud/scan
 
       - setup_remote_docker:
-        docker_layer_caching: true
+          docker_layer_caching: true
 
       - run: |
           TAG=0.1.$CIRCLE_BUILD_NUM
