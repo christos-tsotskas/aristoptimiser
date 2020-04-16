@@ -71,7 +71,7 @@ docker build --no-cache -t ctsotskas/aristohub:latest -f Dockerfile .
 
 run with
 ```bash
-docker run -d -p 5000:5000 ctsotskas/aristohub:latest
+docker run -rm -d -p 5000:5000 ctsotskas/aristohub:latest
 ```
 
 
