@@ -1,7 +1,5 @@
 # Welcome to AristOptimiser
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
 # Project - Intro
 
 This project aims to create the next generation of *useful* AI and, more specifically, optimisation algorithm (aka optimiser) by integrating multiple types of intelligence together in order to solve world's toughest problems! A true AI platform will be developed that could be used to solve real-world problems (e.g., country-wide distribution of medicine! etc.) with real-world constraints (e.g., vehicle availability and capacity, etc.) and thousands of decisions (e.g., drivers, vehicles, stock, inventory) by considering all the underlying complexities and learning from them. Think of this as a better chess-player and go-player and checkers player (and other players), all together! for solving some of the world's hardest problems. 
@@ -40,9 +38,9 @@ there could be more... ANYTHING that you normally express as a number that needs
 
 ## why?
 
-Over the years I have been called to solve many big problems, for some of the world's largest organisations. Very often the problem description sounded 'small' and project sponsors thought "let's throw a few 1000s... and in 2-3 months... with 1-2 coders.... the problem will be solved" (... magically!). Well.... sorry for breaking this to you.... 17 years in my career, this *NEVER* happened. Partly, ignorance of the problem, partly because there were a few 1000s of $ leftover from another budget, less knowledge, less workforce, less resources (and a combination of those!).... Although I cannot do much to change everybody's mind... at least I can contribute to the fellow data scientist (of me and others.... 17 years ago.... and hopefully many more years in the future!) by creating a tool that works and is ti for purposes. More specifically, for solving the Multi-objective optimisation problems I mentioned ago.
+Over the years I have been called to solve many big problems, for some of the world's largest organisations. Very often the problem description sounded 'small' and project sponsors thought "let's throw a few 1000s... and in 2-3 months... with 1-2 coders.... the problem will be solved" (... magically!). Well.... sorry for breaking this to you.... 17 years in my career, this *NEVER* happened. Partly, ignorance of the problem, partly because there were a few 1000s of $ leftover from another budget, less knowledge, less workforce, less resources (and a combination of those!).... Although I cannot do much to change everybody's mind... at least I can contribute to the fellow data scientist (of me and others.... 17 years ago.... and hopefully many more years in the future!) by creating a tool that works and is fit for purpose. More specifically, for solving the Multi-objective optimisation problems I mentioned ago.
 
-Very often, the above problems were attempted to be tackled with a few tools (optimisers) and a tiny bit of data! This was even more painful.... it was like trying to dig a hole with a pencil! I guess wrong 'chemistry'? Certainly, a better tool was required which had to be used in the right way
+Very often, the above problems were attempted to be tackled with a few tools (optimisers) and a tiny bit of data! This was even more painful.... it was like trying to dig a hole with a pencil! I guess wrong 'chemistry'? Certainly, a better tool was required which had to be used in the right way.
 
 In the past, I had developed a small(er) tool (linked), which was intended to have many more features.
 
@@ -129,19 +127,3 @@ Let's create some pull requests!
 
 
 
-
-
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.

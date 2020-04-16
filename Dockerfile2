@@ -1,10 +1,11 @@
-FROM ubuntu:18.04
-RUN apt-get update -y
-#RUN apt-get install -y python-pip python-dev build-essential
-RUN apt-get install -y python3.6 python3-pip
+FROM python:3.6-slim-buster
+
 COPY . /app
 WORKDIR /app
-RUN pip3 install -r requirements.txt
+RUN pip3 install pipenv
+RUN ls -al
+RUN pipenv install --system --deploy --ignore-pipfile
 
 
-CMD ["python3", "aristoptimiser/web_optimiser_configuration.py"]
+
+CMD ["pipenv run python", "aristoptimiser/web_optimiser_configuration.py"]
