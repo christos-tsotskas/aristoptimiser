@@ -1,8 +1,12 @@
-FROM python:3.8-slim-buster
+FROM python:3.6-slim-buster
 
 COPY . /app
 WORKDIR /app
-RUN pip3 install -r requirements.txt
+RUN pip install pipenv
+RUN ls -al
+RUN pipenv install --system --deploy --ignore-pipfile
+RUN pipenv install flask
 
 
-CMD ["python3", "aristoptimiser/web_optimiser_configuration.py"]
+
+CMD ["python", "aristoptimiser/web_optimiser_configuration.py"]
