@@ -54,6 +54,12 @@ and then connect with
 docker exec -it busy_williamson bash
 ```
 
+### approach3
+
+```bash
+docker -it -p 5000:5000 ctsotskas/aristohub:latest bash
+```
+
 carry on from http://bobcares.com/blog/docker-port-expose/
 
 # Instructions to build the service
@@ -72,7 +78,7 @@ docker run -d -p 5000:5000 ctsotskas/aristohub:latest
 push
 ```bash
 echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin
-docker build --no-cache -t ctsotskas/aristohub:latest -f Dockerfile2 .
+docker build --no-cache -t ctsotskas/aristohub:latest -f Dockerfile .
 docker push ctsotskas/aristohub:latest
 
 ```
