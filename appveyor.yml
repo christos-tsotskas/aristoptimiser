@@ -51,6 +51,10 @@ test_script:
   - pipenv run codecov
   - ls -al
 
+# scripts to run after tests
+after_test:
+  - docker build --no-cache -t ctsotskas/aristohub:latest -f Dockerfile .
+
 
 notifications:
 
