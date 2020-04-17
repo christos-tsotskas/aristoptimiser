@@ -53,7 +53,9 @@ test_script:
 
 # scripts to run after tests
 after_test:
+  - echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin
   - docker build --no-cache -t ctsotskas/aristohub:latest -f Dockerfile .
+  - docker push ctsotskas/aristohub:latest
 
 
 notifications:
