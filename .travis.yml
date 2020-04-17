@@ -18,18 +18,18 @@
 
 
 
-sudo: required
-services
-- docker
-
-addons:
-  sonarcloud:
-    organization: "christos-tsotskas"
-
-
-script:
-  # other script steps might be done before running the actual analysis
-  - sonar-scanner
+#sudo: required
+#services
+#- docker
+#
+#addons:
+#  sonarcloud:
+#    organization: "christos-tsotskas"
+#
+#
+#script:
+#  # other script steps might be done before running the actual analysis
+#  - sonar-scanner
 
 language: python
 
