@@ -47,7 +47,7 @@ test_script:
   - pipenv run coverage report -m
   - pipenv run coverage html
   - pipenv run coverage xml -i
-  - pipenv run coverage xml -i -o test-results/coverage.xml
+#  - pipenv run coverage xml -i -o test-results/coverage.xml
   - pipenv run codecov
   - ls -al
 
