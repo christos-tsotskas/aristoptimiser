@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e36e1618-d1e0-4a8d-929a-ef606e48c80a" name="Default Changelist" comment="creating a slimmer docker image">
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/aristoptimiser_script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aristoptimiser/dummy_app4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/coverage" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/coverage-3.6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/coverage3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/flake8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/flask" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/pipenv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/pipenv-resolver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/py.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/pycodestyle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/pyflakes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/pytest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/virtualenv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/virtualenv-clone" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/unit2/results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/xunit2/results.xml" afterDir="false" />
+    <list default="true" id="e36e1618-d1e0-4a8d-929a-ef606e48c80a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis/deploy_dockerhub.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.travis/deploy_dockerhub.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +18,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="342">
-                <caret line="79" column="65" lean-forward="true" selection-start-line="79" selection-end-line="79" selection-end-column="65" />
+                <caret line="79" selection-start-line="79" selection-end-line="81" selection-end-column="38" />
               </first_editor>
               <second_editor />
             </state>
@@ -46,26 +28,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
+            <state relative-caret-position="506">
               <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="350">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis/deploy_dockerhub.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="308">
+              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -82,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="528">
               <caret line="24" column="55" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="55" />
             </state>
           </provider>
@@ -111,7 +93,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="release" />
       </map>
     </option>
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
@@ -128,7 +110,6 @@
         <option value="$PROJECT_DIR$/aristoptimiser/dummy_app4.py" />
         <option value="$PROJECT_DIR$/aristoptimiser/OptimiserConfigurator.py" />
         <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/.travis/deploy_dockerhub.sh" />
         <option value="$PROJECT_DIR$/Dockerfile_web" />
         <option value="$PROJECT_DIR$/requirements3.txt" />
         <option value="$PROJECT_DIR$/app3.py" />
@@ -151,6 +132,7 @@
         <option value="$PROJECT_DIR$/Dockerfile2" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/.travis/deploy_dockerhub.sh" />
       </list>
     </option>
   </component>
@@ -318,10 +300,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests in test_web_optimiser_configurator.py" />
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python.web_optimiser_configuration" />
-        <item itemvalue="Python tests.Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator" />
         <item itemvalue="Python tests.Unittests in test_configuration_of_optimiser.py" />
+        <item itemvalue="Python tests.Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator" />
+        <item itemvalue="Python.web_optimiser_configuration" />
+        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
@@ -337,13 +319,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586590555617</updated>
-    </task>
-    <task id="LOCAL-00019" summary="added sonarcloud configuration">
-      <created>1586723179276</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1586723179276</updated>
     </task>
     <task id="LOCAL-00020" summary="minimised duplication">
       <created>1586723538804</created>
@@ -681,7 +656,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587075079007</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="configuring travis to build docker images">
+      <created>1587152221426</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1587152221427</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -718,16 +700,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="1105" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15245901" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15245901" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49945354" visible="true" weight="0.29805616" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49945354" weight="0.29805616" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50054646" side_tool="true" weight="0.29805616" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32937366" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32937366" />
-      <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.49945354" weight="0.32829374" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="5" sideWeight="0.49945354" visible="true" weight="0.32829374" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
@@ -772,7 +755,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="kept only the tests that don't need deployment (yet)" />
     <MESSAGE value="attempted to configure the integration with docker/dockerhub" />
     <MESSAGE value="modified web services settings" />
     <MESSAGE value="different docker configuration" />
@@ -797,7 +779,8 @@
     <MESSAGE value="house keeping" />
     <MESSAGE value="added documentation from read the docks" />
     <MESSAGE value="creating a slimmer docker image" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating a slimmer docker image" />
+    <MESSAGE value="configuring travis to build docker images" />
+    <option name="LAST_COMMIT_MESSAGE" value="configuring travis to build docker images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -956,6 +939,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile_simple">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -963,17 +953,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="528">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis/deploy_dockerhub.sh">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="350">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
@@ -981,23 +971,16 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="342">
-            <caret line="79" column="65" lean-forward="true" selection-start-line="79" selection-end-line="79" selection-end-column="65" />
+            <caret line="79" selection-start-line="79" selection-end-line="81" selection-end-column="38" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+    <entry file="file://$PROJECT_DIR$/.travis/deploy_dockerhub.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="24" column="55" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="308">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
