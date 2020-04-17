@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e36e1618-d1e0-4a8d-929a-ef606e48c80a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.circleci/config_with_docker_building.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+    <list default="true" id="e36e1618-d1e0-4a8d-929a-ef606e48c80a" name="Default Changelist" comment="creating a slimmer docker image">
+      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/aristoptimiser_script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aristoptimiser/dummy_app4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyopt/bin/coverage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyopt/bin/coverage-3.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyopt/bin/coverage3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyopt/bin/flake8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyopt/bin/flask" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyopt/bin/pipenv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyopt/bin/pipenv-resolver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyopt/bin/py.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyopt/bin/pycodestyle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyopt/bin/pyflakes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyopt/bin/pytest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyopt/bin/virtualenv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyopt/bin/virtualenv-clone" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/unit2/results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-results/xunit2/results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile2" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,64 +35,10 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="400">
-                <caret line="73" selection-start-line="73" selection-end-line="75" selection-end-column="38" />
+              <first_editor relative-caret-position="342">
+                <caret line="79" column="65" lean-forward="true" selection-start-line="79" selection-end-line="79" selection-end-column="65" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sonar-project.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile_test">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile2">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/setup.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile3">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -92,8 +46,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="59" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="59" />
+            <state relative-caret-position="139">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis/deploy_dockerhub.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dockerfile_simple">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -101,20 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="396">
-                <caret line="51" selection-start-line="51" selection-end-line="51" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="396">
+              <caret line="24" column="55" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -135,6 +104,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>pytest</find>
+      <find>flas</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,20 +136,21 @@
         <option value="$PROJECT_DIR$/Dockerfile4" />
         <option value="$PROJECT_DIR$/app4.py" />
         <option value="$PROJECT_DIR$/sonar-projet.properties" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/test/test_configuration_of_optimiser.py" />
         <option value="$PROJECT_DIR$/test/test_web_optimiser_configurator.py" />
         <option value="$PROJECT_DIR$/pytest.ini" />
         <option value="$PROJECT_DIR$/aristoptimiser/web_optimiser_configuration.py" />
         <option value="$PROJECT_DIR$/sonar-project.properties" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/docs/index.md" />
         <option value="$PROJECT_DIR$/Dockerfile" />
-        <option value="$PROJECT_DIR$/Dockerfile2" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/Dockerfile3" />
         <option value="$PROJECT_DIR$/setup.cfg" />
+        <option value="$PROJECT_DIR$/.dockerignore" />
+        <option value="$PROJECT_DIR$/Dockerfile2" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -194,6 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,18 +181,17 @@
             <path>
               <item name="aristoptimiser" type="b2602c69:ProjectViewProjectNode" />
               <item name="aristoptimiser" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name=".travis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.circleci" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -228,8 +199,8 @@
       <recent name="$PROJECT_DIR$/resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/.circleci" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/.circleci" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -366,34 +337,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586590555617</updated>
-    </task>
-    <task id="LOCAL-00015" summary="experiments">
-      <created>1586648000961</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1586648000961</updated>
-    </task>
-    <task id="LOCAL-00016" summary="experiments">
-      <created>1586648012411</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1586648012411</updated>
-    </task>
-    <task id="LOCAL-00017" summary="fixed the deployment with docker">
-      <created>1586718642533</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1586718642533</updated>
-    </task>
-    <task id="LOCAL-00018" summary="added automation for coverage">
-      <created>1586722720756</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1586722720756</updated>
     </task>
     <task id="LOCAL-00019" summary="added sonarcloud configuration">
       <created>1586723179276</created>
@@ -710,7 +653,35 @@
       <option name="project" value="LOCAL" />
       <updated>1587067076780</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="creating a slimmer docker image">
+      <created>1587071631019</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1587071631019</updated>
+    </task>
+    <task id="LOCAL-00065" summary="creating a slimmer docker image">
+      <created>1587073598381</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1587073598381</updated>
+    </task>
+    <task id="LOCAL-00066" summary="creating a slimmer docker image">
+      <created>1587073757929</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1587073757929</updated>
+    </task>
+    <task id="LOCAL-00067" summary="creating a slimmer docker image">
+      <created>1587075079006</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1587075079007</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -883,12 +854,10 @@
     <entry file="file://$PROJECT_DIR$/aristoptimiser/__init__.py" />
     <entry file="file://$PROJECT_DIR$/aristoptimiser/OptimiserConfigurator.py" />
     <entry file="file://$PROJECT_DIR$/resources/small_good_configuration.json" />
-    <entry file="file://$PROJECT_DIR$/.travis/deploy_dockerhub.sh" />
     <entry file="file://$PROJECT_DIR$/app3.py" />
     <entry file="file://$PROJECT_DIR$/Dockerfile_web" />
     <entry file="file://$PROJECT_DIR$/requirements3.txt" />
     <entry file="file://$PROJECT_DIR$/aristoptimiser/utilities.py" />
-    <entry file="file://$PROJECT_DIR$/.travis.yml" />
     <entry file="file://$PROJECT_DIR$/app.py" />
     <entry file="file://$PROJECT_DIR$/requirements4.txt" />
     <entry file="file://$PROJECT_DIR$/Pipfile.lock" />
@@ -901,7 +870,6 @@
     <entry file="file://$PROJECT_DIR$/app4.py" />
     <entry file="file://$PROJECT_DIR$/Dockerfile4" />
     <entry file="file://$PROJECT_DIR$/coverage.xml" />
-    <entry file="file://$PROJECT_DIR$/aristoptimiser/web_optimiser_configuration.py" />
     <entry file="file://$PROJECT_DIR$/requirements.txt" />
     <entry file="file://$PROJECT_DIR$/pytest.ini" />
     <entry file="file://$PROJECT_DIR$/utilities/temp_bash.sh" />
@@ -934,16 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="400">
-            <caret line="73" selection-start-line="73" selection-end-line="75" selection-end-column="38" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config_with_docker_building.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -961,20 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -982,24 +926,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="59" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile3" />
     <entry file="file://$PROJECT_DIR$/setup.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aristoptimiser/web_optimiser_configuration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AUTHORS" />
+    <entry file="file://$PROJECT_DIR$/Pipfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="77" column="4" selection-start-line="77" selection-end-line="77" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.dockerignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile_simple">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis/deploy_dockerhub.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="342">
+            <caret line="79" column="65" lean-forward="true" selection-start-line="79" selection-end-line="79" selection-end-column="65" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
