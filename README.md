@@ -82,3 +82,9 @@ docker build --no-cache -t ctsotskas/aristohub:latest -f Dockerfile .
 docker push ctsotskas/aristohub:latest
 
 ```
+
+# CI
+
+## appveyor
+
+instructions: https://www.appveyor.com/docs/appveyor-yml/

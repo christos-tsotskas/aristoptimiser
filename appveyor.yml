@@ -1,0 +1,58 @@
+#Copyright 2020-present Christos Tsotskas
+#
+#travisCI configuration, part of aristoptimiser, https://github.com/christos-tsotskas/aristoptimiser
+#
+#Licensed under the Apache License, Version 2.0 (the "License");
+#you may not use this file except in compliance with the License.
+#You may obtain a copy of the License at
+#http://www.apache.org/licenses/LICENSE-2.0
+#
+#Unless required by applicable law or agreed to in writing, software
+#distributed under the License is distributed on an "AS IS" BASIS,
+#WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#
+#Apache 2.0
+#
+#Leader author: Christos Tsotskas
+#Created by christos at 17/04/2020
+
+#branches:
+#  # whitelist
+#  only:
+#    - master
+#    - develop
+#    - hotfixes
+
+
+
+image: Ubuntu
+
+install:
+  - sudo pip install pipenv
+  - pipenv install
+
+# to run your custom scripts instead of automatic tests
+test_script:
+  - echo This is my custom test script
+  - mkdir test-results
+  - mkdir test-results/xunit2
+  - pipenv run pytest  --junit-xml=test-results/xunit2/results.xml -v test/test_configuration_of_optimiser.py
+  - pipenv run coverage run aristoptimiser/OptimiserConfigurator.py
+  - pipenv run coverage report -m
+  - pipenv run coverage html
+  - pipenv run coverage xml -i
+  - pipenv run coverage xml -i -o test-results/coverage.xml
+  - pipenv run codecov
+  - ls -al
+
+
+notifications:
+
+  # Email
+  - provider: Email
+    to:
+      - c.tsotskas@gmail.com
+
+    subject: 'Build {{status}}'                  # optional
+    message: "{{message}}, {{commitId}}, ..."    # optional
+    on_build_status_changed: true
