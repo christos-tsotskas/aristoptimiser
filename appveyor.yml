@@ -49,13 +49,14 @@ test_script:
 #  - pipenv run coverage xml -i -o test-results/coverage.xml
   - pipenv run codecov
   - ls -al
+  - ls -al test-results
 
 # scripts to run after tests
 after_test:
 #  - docker login -u $DOCKER_USER -p $DOCKER_PASS
   - echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin
-  - docker build --no-cache -t ctsotskas/aristohub:latest -f Dockerfile .
-  - docker push ctsotskas/aristohub:latest
+  - docker build --no-cache -t ctsotskas/aristohub:'{branch}.{version}' -f Dockerfile .
+  - docker push ctsotskas/aristohub:'{branch}.{version}'
 
 
 notifications:
