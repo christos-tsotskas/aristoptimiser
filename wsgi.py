@@ -1,4 +1,4 @@
-from web_optimiser_configuration import app
+from aristoptimiser.web_optimiser_configuration import app
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True, host='0.0.0.0')

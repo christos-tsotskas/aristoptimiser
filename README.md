@@ -58,7 +58,7 @@ docker exec -it busy_williamson bash
 ### approach3
 
 ```bash
-docker -it -p 5000:5000 ctsotskas/aristohub:latest bash
+docker run -it -p 5000:5000 ctsotskas/aristohub:latest bash
 ```
 
 carry on from http://bobcares.com/blog/docker-port-expose/
