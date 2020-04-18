@@ -18,9 +18,9 @@
 
 
 
-#sudo: required
-#services
-#- docker
+sudo: required
+services:
+  - docker
 #
 #addons:
 #  sonarcloud:
@@ -54,6 +54,8 @@ script:
 #linting test
 #- flake
 
+script:
+  - docker build  -t registry.heroku.com/aristoptimiser/web -f Dockerfile .
 
 
 
