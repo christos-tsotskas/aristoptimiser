@@ -127,6 +127,7 @@ heroku ps:scale web=0 -a aristoptimiser
 
 ### references
 https://devcenter.heroku.com/categories/deploying-with-docker
+https://devcenter.heroku.com/articles/build-docker-images-heroku-yml
 https://devcenter.heroku.com/articles/dynos
 https://devcenter.heroku.com/articles/container-registry-and-runtime
 https://www.merixstudio.com/blog/deploying-docker-heroku-tutorial/

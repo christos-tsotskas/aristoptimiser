@@ -87,6 +87,7 @@ Werkzeug = "==1.0.1"
 pytest-cov = "*"
 codecov = "*"
 mkdocs = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.6"
