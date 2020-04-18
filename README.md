@@ -27,6 +27,7 @@ github -> circleCI -> sonarcloud -> docker -> heroku
 - link coverage to https://codecov.io/ with instructions from https://github.com/codecov/example-python and https://codecov.io/gh/christos-tsotskas/aristoptimiser
 - add flake8 in the CI pipeline
 - add some badges
+- https://docs.docker.com/engine/reference/commandline/login/#credentials-store
 
 # R&D
 - possibly use Nameko for microservices (https://www.toptal.com/python/introduction-python-microservices-nameko)
@@ -83,8 +84,54 @@ docker push ctsotskas/aristohub:latest
 
 ```
 
+tag (for Heroku) & push to Heroku
+
+HEROKU_APP_NAME: <APP_NAME>
+HEROKU_REGISTRY_IMAGE: registry.heroku.com/${HEROKU_APP_NAME}/web
+
+```bash
+docker login -u _ -p $HEROKU_AUTH_TOKEN registry.heroku.com
+docker build  -t registry.heroku.com/aristoptimiser/web -f Dockerfile .
+docker push registry.heroku.com/aristoptimiser/web
+heroku container:release web --app=aristoptimiser
+
+```
+
+
 # CI
 
 ## appveyor
 
 instructions: https://www.appveyor.com/docs/appveyor-yml/
+https://www.appveyor.com/docs/build-configuration/
+
+
+# other guide
+https://sweetcode.io/flask-app-github-travis-heroku/
+
+# operations
+
+## Heroku
+
+run (after pushing)
+```bash
+heroku container:release -a aristoptimiser web
+```
+
+check from broswer https://aristoptimiser.herokuapp.com/
+
+stop all activity
+```bash
+heroku ps:scale web=0 -a aristoptimiser
+```
+
+### references
+https://devcenter.heroku.com/categories/deploying-with-docker
+https://devcenter.heroku.com/articles/dynos
+https://devcenter.heroku.com/articles/container-registry-and-runtime
+https://www.merixstudio.com/blog/deploying-docker-heroku-tutorial/
+
+# other
+https://testdriven.io/blog/deploying-flask-to-heroku-with-docker-and-gitlab/
+https://stackabuse.com/deploying-a-flask-application-to-heroku/?fbclid=IwAR1UjkOizjJOQU_X7KwfZ1Hn7SMWeSnAJN3SrQMprwaMIhxDlKZKiC5nQfI
+https://stackoverflow.com/questions/60013369/deploying-flask-with-celery-app-on-heroku-using-heroku-yml
