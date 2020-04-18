@@ -47,7 +47,6 @@ jobs:
       - run:
           name: run unit tests
           command: |
-            mkdir test-results/xunit2
             pipenv run pytest  --junit-xml=test-results/xunit2/results.xml -v test/test_configuration_of_optimiser.py
             pipenv run coverage run aristoptimiser/OptimiserConfigurator.py
             pipenv run coverage report -m
