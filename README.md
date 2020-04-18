@@ -35,6 +35,7 @@ github -> circleCI -> sonarcloud -> docker -> heroku
 - see more from travis ( https://docs.travis-ci.com/user/tutorial/)
 - additional rules (https://flask.palletsprojects.com/en/1.1.x/api/)
 - check https://www.fullstackpython.com/api-creation.html
+- check Zappa, serverless python (from zappa.io)
 
 # Utilities
 
@@ -62,6 +63,13 @@ docker run -it -p 5000:5000 ctsotskas/aristohub:latest bash
 ```
 
 carry on from http://bobcares.com/blog/docker-port-expose/
+
+## executing containers
+
+run docker with PORT as environment variable (this is needed for deploying on Heroku)
+```bash
+docker run -d -p 4000:4000 -e PORT=4000 registry.heroku.com/aristoptimiser/web
+```
 
 # Instructions to build the service
 
@@ -98,6 +106,8 @@ heroku container:release web --app=aristoptimiser
 ```
 
 
+
+
 # CI
 
 ## appveyor
@@ -131,6 +141,7 @@ https://devcenter.heroku.com/articles/build-docker-images-heroku-yml
 https://devcenter.heroku.com/articles/dynos
 https://devcenter.heroku.com/articles/container-registry-and-runtime
 https://www.merixstudio.com/blog/deploying-docker-heroku-tutorial/
+https://devcenter.heroku.com/articles/runtime-principles
 
 # other
 https://testdriven.io/blog/deploying-flask-to-heroku-with-docker-and-gitlab/
