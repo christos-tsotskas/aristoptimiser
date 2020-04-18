@@ -37,4 +37,4 @@ COPY . /home/appuser/app
 RUN chown -R appuser:appuser /home/appuser/app
 USER appuser
 
-CMD ["python", "aristoptimiser/wsgi.py"]
+CMD ["python", "wsgi.py"]
