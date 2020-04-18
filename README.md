@@ -28,6 +28,7 @@ github -> circleCI -> sonarcloud -> docker -> heroku
 - add flake8 in the CI pipeline
 - add some badges
 - https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+- more configuration for the webserver ( such as https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-14-04)
 
 # R&D
 - possibly use Nameko for microservices (https://www.toptal.com/python/introduction-python-microservices-nameko)
@@ -98,7 +99,7 @@ HEROKU_APP_NAME: <APP_NAME>
 HEROKU_REGISTRY_IMAGE: registry.heroku.com/${HEROKU_APP_NAME}/web
 
 ```bash
-docker login -u _ -p $HEROKU_AUTH_TOKEN registry.heroku.com
+docker login -u $HEROKU_USER -p $HEROKU_API_KEY registry.heroku.com
 docker build  -t registry.heroku.com/aristoptimiser/web -f Dockerfile .
 docker push registry.heroku.com/aristoptimiser/web
 heroku container:release web --app=aristoptimiser

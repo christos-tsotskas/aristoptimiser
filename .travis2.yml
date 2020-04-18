@@ -39,21 +39,17 @@ python:
 
 # command to install dependencies
 install:
-  - pip install pipenv
+  - pip install -r requirements.txt
 # command to run tests
 script:
-
-  - pipenv install
-  - pipenv run pytest  --junit-xml=test-results/xunit2/results.xml -v test/test_configuration_of_optimiser.py
-  - pipenv run coverage run aristoptimiser/OptimiserConfigurator.py
-  - pipenv run coverage report -m
-  - pipenv run coverage html
-  - pipenv run coverage xml -i
-  - pipenv run coverage xml -i -o test-results/coverage.xml
-  - pipenv run codecov
+#  - python -m unittest discover -s test -v #approach 1
+#  - pytest #approach 2
+  - python -m pytest -v test/test_configuration_of_optimiser.py #approach 3
 #linting test
 #- flake
-
+  - python -m coverage run aristoptimiser/OptimiserConfigurator.py
+  - python -m coverage report -m
+  - python -m coverage xml -i
 
 
 
