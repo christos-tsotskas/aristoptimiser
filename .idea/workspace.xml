@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/README.md" description="https://sweetcode.io/flask-app-github-travis-herok..." line="129" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e36e1618-d1e0-4a8d-929a-ef606e48c80a" name="Default Changelist" comment="creating a slimmer docker image">
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/aristoptimiser_script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aristoptimiser/dummy_app4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/coverage" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/coverage-3.6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/coverage3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/flake8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/flask" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/pipenv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/pipenv-resolver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/py.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/pycodestyle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/pyflakes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/pytest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/virtualenv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyopt/bin/virtualenv-clone" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/unit2/results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-results/xunit2/results.xml" afterDir="false" />
+    <list default="true" id="e36e1618-d1e0-4a8d-929a-ef606e48c80a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_web_optimiser_configurator.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_web_optimiser_configurator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,49 +18,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="342">
-                <caret line="79" column="65" lean-forward="true" selection-start-line="79" selection-end-line="79" selection-end-column="65" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/.travis/deploy_dockerhub.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/test/test_the_deployment_of_containers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="239">
+              <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+              <folding>
+                <element signature="e#959#974#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="679">
+              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
+        <entry file="file://$PROJECT_DIR$/test/test_web_optimiser_configurator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="145">
+              <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+              <folding>
+                <element signature="e#959#974#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.travis/deploy_dockerhub.sh">
+        <entry file="file://$PROJECT_DIR$/aristoptimiser/web_optimiser_configuration.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="1056">
+              <caret line="113" column="38" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="38" />
+              <folding>
+                <element signature="e#954#965#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile_simple">
+        <entry file="file://$PROJECT_DIR$/test/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis2.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heroku.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -82,8 +101,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="24" column="55" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="55" />
+            <state relative-caret-position="1408">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="-83">
+                <caret line="136" column="7" lean-forward="true" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="7" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -111,7 +142,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="release" />
       </map>
     </option>
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
@@ -128,7 +159,6 @@
         <option value="$PROJECT_DIR$/aristoptimiser/dummy_app4.py" />
         <option value="$PROJECT_DIR$/aristoptimiser/OptimiserConfigurator.py" />
         <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/.travis/deploy_dockerhub.sh" />
         <option value="$PROJECT_DIR$/Dockerfile_web" />
         <option value="$PROJECT_DIR$/requirements3.txt" />
         <option value="$PROJECT_DIR$/app3.py" />
@@ -137,20 +167,30 @@
         <option value="$PROJECT_DIR$/app4.py" />
         <option value="$PROJECT_DIR$/sonar-projet.properties" />
         <option value="$PROJECT_DIR$/test/test_configuration_of_optimiser.py" />
-        <option value="$PROJECT_DIR$/test/test_web_optimiser_configurator.py" />
         <option value="$PROJECT_DIR$/pytest.ini" />
-        <option value="$PROJECT_DIR$/aristoptimiser/web_optimiser_configuration.py" />
         <option value="$PROJECT_DIR$/sonar-project.properties" />
-        <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/docs/index.md" />
-        <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/Dockerfile3" />
         <option value="$PROJECT_DIR$/setup.cfg" />
-        <option value="$PROJECT_DIR$/.dockerignore" />
         <option value="$PROJECT_DIR$/Dockerfile2" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/appveyor.yml" />
+        <option value="$PROJECT_DIR$/heroku.yml" />
+        <option value="$PROJECT_DIR$/runtime.txt" />
+        <option value="$PROJECT_DIR$/aristoptimiser/wsgi.py" />
+        <option value="$PROJECT_DIR$/aristoptimiser/web_optimiser_configuration.py" />
+        <option value="$PROJECT_DIR$/.dockerignore" />
+        <option value="$PROJECT_DIR$/wsgi.py" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/test/test_the_deployment_of_containers.py" />
+        <option value="$PROJECT_DIR$/.travis/deploy_dockerhub.sh" />
+        <option value="$PROJECT_DIR$/.travis/deploy_heroku.sh" />
+        <option value="$PROJECT_DIR$/test/conftest.py" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/test/test_web_optimiser_configurator.py" />
       </list>
     </option>
   </component>
@@ -183,6 +223,16 @@
               <item name="aristoptimiser" type="462c0819:PsiDirectoryNode" />
               <item name=".travis" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="aristoptimiser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aristoptimiser" type="462c0819:PsiDirectoryNode" />
+              <item name="aristoptimiser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aristoptimiser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aristoptimiser" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -191,14 +241,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.travis" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.travis" />
+      <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/.circleci" />
     </key>
@@ -216,46 +269,18 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.Unittests in test_web_optimiser_configurator.py">
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for test_the_deployment_of_containers.TestCaseForWebOptimiserConfigurator.test_Web_serve_data" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="aristoptimiser" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="web_optimiser_configuration" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="aristoptimiser" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aristoptimiser" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aristoptimiser/web_optimiser_configuration.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_the_deployment_of_containers.TestCaseForWebOptimiserConfigurator.test_Web_serve_data&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -272,7 +297,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_configuration_of_optimiser.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_optimiser_configuration_with_good_input" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="aristoptimiser" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,8 +307,22 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_configuration_of_optimiser.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_optimiser_configuration_with_good_input&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_serve_data" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="aristoptimiser" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_serve_data&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests in test_web_optimiser_configurator.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -318,10 +357,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests in test_web_optimiser_configurator.py" />
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python.web_optimiser_configuration" />
         <item itemvalue="Python tests.Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator" />
-        <item itemvalue="Python tests.Unittests in test_configuration_of_optimiser.py" />
+        <item itemvalue="Python tests.Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_optimiser_configuration_with_good_input" />
+        <item itemvalue="Python tests.Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_serve_data" />
+        <item itemvalue="Python tests.Unittests for test_the_deployment_of_containers.TestCaseForWebOptimiserConfigurator.test_Web_serve_data" />
       </list>
     </recent_temporary>
   </component>
@@ -337,272 +376,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586590555617</updated>
-    </task>
-    <task id="LOCAL-00019" summary="added sonarcloud configuration">
-      <created>1586723179276</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1586723179276</updated>
-    </task>
-    <task id="LOCAL-00020" summary="minimised duplication">
-      <created>1586723538804</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1586723538805</updated>
-    </task>
-    <task id="LOCAL-00021" summary="attempted configuration for circleCI">
-      <created>1586724325387</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1586724325387</updated>
-    </task>
-    <task id="LOCAL-00022" summary="attempted configuration for circleCI for tests">
-      <created>1586730104219</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1586730104219</updated>
-    </task>
-    <task id="LOCAL-00023" summary="fixing circleCI">
-      <created>1586798402884</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1586798402884</updated>
-    </task>
-    <task id="LOCAL-00024" summary="fixing circleCI">
-      <created>1586798764373</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1586798764373</updated>
-    </task>
-    <task id="LOCAL-00025" summary="fixing circleCI">
-      <created>1586799038886</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1586799038886</updated>
-    </task>
-    <task id="LOCAL-00026" summary="fixing sonar on circleCI">
-      <created>1586799805218</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1586799805218</updated>
-    </task>
-    <task id="LOCAL-00027" summary="attempted to cache dependences on CircleCI">
-      <created>1586800632820</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1586800632820</updated>
-    </task>
-    <task id="LOCAL-00028" summary="attempted to cache dependencies on CircleCI">
-      <created>1586801771520</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1586801771520</updated>
-    </task>
-    <task id="LOCAL-00029" summary="switched to pipenv">
-      <created>1586804529471</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1586804529471</updated>
-    </task>
-    <task id="LOCAL-00030" summary="switched to pipenv">
-      <created>1586804747025</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1586804747025</updated>
-    </task>
-    <task id="LOCAL-00031" summary="switched to pipenv">
-      <created>1586804987936</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1586804987936</updated>
-    </task>
-    <task id="LOCAL-00032" summary="switched to pipenv">
-      <created>1586805462523</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1586805462523</updated>
-    </task>
-    <task id="LOCAL-00033" summary="switched to pipenv">
-      <created>1586805657717</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1586805657717</updated>
-    </task>
-    <task id="LOCAL-00034" summary="fixing caching">
-      <created>1586806146087</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1586806146087</updated>
-    </task>
-    <task id="LOCAL-00035" summary="fixing caching">
-      <created>1586806325602</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1586806325602</updated>
-    </task>
-    <task id="LOCAL-00036" summary="fixing caching">
-      <created>1586806515774</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1586806515774</updated>
-    </task>
-    <task id="LOCAL-00037" summary="fixing caching">
-      <created>1586806957771</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1586806957771</updated>
-    </task>
-    <task id="LOCAL-00038" summary="fixing caching">
-      <created>1586807315234</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1586807315234</updated>
-    </task>
-    <task id="LOCAL-00039" summary="fixing caching">
-      <created>1586807665607</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1586807665607</updated>
-    </task>
-    <task id="LOCAL-00040" summary="fixing caching">
-      <created>1586807970707</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1586807970707</updated>
-    </task>
-    <task id="LOCAL-00041" summary="fixing caching">
-      <created>1586808264175</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1586808264175</updated>
-    </task>
-    <task id="LOCAL-00042" summary="fixing caching">
-      <created>1586808478376</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1586808478376</updated>
-    </task>
-    <task id="LOCAL-00043" summary="fixing sonarcloud configuration on CircleCI">
-      <created>1586809382353</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1586809382353</updated>
-    </task>
-    <task id="LOCAL-00044" summary="connecting coverage reports">
-      <created>1586812090994</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1586812090994</updated>
-    </task>
-    <task id="LOCAL-00045" summary="connecting coverage reports">
-      <created>1586813780539</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1586813780539</updated>
-    </task>
-    <task id="LOCAL-00046" summary="connecting coverage reports">
-      <created>1586814274554</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1586814274554</updated>
-    </task>
-    <task id="LOCAL-00047" summary="connecting coverage reports">
-      <created>1586814372804</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1586814372804</updated>
-    </task>
-    <task id="LOCAL-00048" summary="connecting coverage reports">
-      <created>1586814674532</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1586814674532</updated>
-    </task>
-    <task id="LOCAL-00049" summary="connecting coverage reports">
-      <created>1586815944405</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1586815944405</updated>
-    </task>
-    <task id="LOCAL-00050" summary="connecting coverage reports for sonarcloud">
-      <created>1586816182271</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1586816182272</updated>
-    </task>
-    <task id="LOCAL-00051" summary="added coverage for codecov">
-      <created>1586817674570</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1586817674570</updated>
-    </task>
-    <task id="LOCAL-00052" summary="added coverage for codecov">
-      <created>1586817885137</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1586817885138</updated>
-    </task>
-    <task id="LOCAL-00053" summary="added coverage for codecov">
-      <created>1586818105813</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1586818105813</updated>
-    </task>
-    <task id="LOCAL-00054" summary="attempting to push codecoverage to sonarcloud">
-      <created>1586818316211</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1586818316211</updated>
-    </task>
-    <task id="LOCAL-00055" summary="attempting to push codecoverage to sonarcloud">
-      <created>1586819006438</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1586819006438</updated>
-    </task>
-    <task id="LOCAL-00056" summary="attempting to push codecoverage to sonarcloud">
-      <created>1586819160955</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1586819160955</updated>
     </task>
     <task id="LOCAL-00057" summary="attempting to push codecoverage to sonarcloud">
       <created>1586819427516</created>
@@ -681,38 +454,304 @@
       <option name="project" value="LOCAL" />
       <updated>1587075079007</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="configuring travis to build docker images">
+      <created>1587152221426</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1587152221427</updated>
+    </task>
+    <task id="LOCAL-00069" summary="configuring travis to build docker images">
+      <created>1587153412252</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1587153412252</updated>
+    </task>
+    <task id="LOCAL-00070" summary="configuring travis to build docker images">
+      <created>1587153890967</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1587153890967</updated>
+    </task>
+    <task id="LOCAL-00071" summary="setting up appveyor">
+      <created>1587156767519</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1587156767519</updated>
+    </task>
+    <task id="LOCAL-00072" summary="setting up appveyor">
+      <created>1587157136873</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1587157136873</updated>
+    </task>
+    <task id="LOCAL-00073" summary="setting up appveyor">
+      <created>1587157454463</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1587157454463</updated>
+    </task>
+    <task id="LOCAL-00074" summary="setting up appveyor">
+      <created>1587158494293</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1587158494293</updated>
+    </task>
+    <task id="LOCAL-00075" summary="setting up appveyor">
+      <created>1587158886793</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1587158886793</updated>
+    </task>
+    <task id="LOCAL-00076" summary="setting up appveyor">
+      <created>1587159501459</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1587159501459</updated>
+    </task>
+    <task id="LOCAL-00077" summary="setting up appveyor">
+      <created>1587159587589</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1587159587589</updated>
+    </task>
+    <task id="LOCAL-00078" summary="setting up appveyor">
+      <created>1587159912092</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1587159912092</updated>
+    </task>
+    <task id="LOCAL-00079" summary="setting up appveyor">
+      <created>1587160837203</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1587160837203</updated>
+    </task>
+    <task id="LOCAL-00080" summary="setting up appveyor">
+      <created>1587161455240</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1587161455240</updated>
+    </task>
+    <task id="LOCAL-00081" summary="setting up appveyor">
+      <created>1587162465827</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1587162465827</updated>
+    </task>
+    <task id="LOCAL-00082" summary="setting up appveyor">
+      <created>1587163448161</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1587163448161</updated>
+    </task>
+    <task id="LOCAL-00083" summary="setting up appveyor">
+      <created>1587165408968</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1587165408968</updated>
+    </task>
+    <task id="LOCAL-00084" summary="changed appserver to wsgi">
+      <created>1587229705385</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1587229705386</updated>
+    </task>
+    <task id="LOCAL-00085" summary="fixing circleCI">
+      <created>1587230606895</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1587230606895</updated>
+    </task>
+    <task id="LOCAL-00086" summary="fixing circleCI">
+      <created>1587230705173</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1587230705173</updated>
+    </task>
+    <task id="LOCAL-00087" summary="fixing circleCI">
+      <created>1587232872854</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1587232872855</updated>
+    </task>
+    <task id="LOCAL-00088" summary="fixing circleCI">
+      <created>1587236096223</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1587236096223</updated>
+    </task>
+    <task id="LOCAL-00089" summary="fixed the image to run on heroku by inserting variables from the shell">
+      <created>1587246409111</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1587246409111</updated>
+    </task>
+    <task id="LOCAL-00090" summary="fixing travisCI">
+      <created>1587248617405</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1587248617405</updated>
+    </task>
+    <task id="LOCAL-00091" summary="fixing travisCI">
+      <created>1587249574659</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1587249574659</updated>
+    </task>
+    <task id="LOCAL-00092" summary="fixing travisCI">
+      <created>1587308518599</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1587308518600</updated>
+    </task>
+    <task id="LOCAL-00093" summary="fixing travisCI">
+      <created>1587310282803</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1587310282803</updated>
+    </task>
+    <task id="LOCAL-00094" summary="fixing travisCI">
+      <created>1587311534472</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1587311534472</updated>
+    </task>
+    <task id="LOCAL-00095" summary="fixing travisCI">
+      <created>1587312369061</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1587312369061</updated>
+    </task>
+    <task id="LOCAL-00096" summary="fixing travisCI">
+      <created>1587312915733</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1587312915733</updated>
+    </task>
+    <task id="LOCAL-00097" summary="fixing travisCI">
+      <created>1587313976574</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1587313976574</updated>
+    </task>
+    <task id="LOCAL-00098" summary="fixing travisCI">
+      <created>1587314470830</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1587314470830</updated>
+    </task>
+    <task id="LOCAL-00099" summary="fixing travisCI">
+      <created>1587314687495</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1587314687495</updated>
+    </task>
+    <task id="LOCAL-00100" summary="fixing travisCI">
+      <created>1587316026879</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1587316026880</updated>
+    </task>
+    <task id="LOCAL-00101" summary="fixing travisCI">
+      <created>1587317080005</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1587317080005</updated>
+    </task>
+    <task id="LOCAL-00102" summary="fixing travisCI">
+      <created>1587323138938</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1587323138939</updated>
+    </task>
+    <task id="LOCAL-00103" summary="fixing travisCI">
+      <created>1587338674274</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1587338674274</updated>
+    </task>
+    <task id="LOCAL-00104" summary="fixing travisCI">
+      <created>1587339454970</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1587339454970</updated>
+    </task>
+    <task id="LOCAL-00105" summary="fixing travisCI">
+      <created>1587339840834</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1587339840834</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator - 2020.04.11 at 20h 02m 07s.xml">
+    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator_test_Web_optimiser_configuration_with_good_input - 2020.04.19 at 19h 41m 56s.xml">
+      <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_optimiser_configuration_with_good_input" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator_test_Web_optimiser_configuration_with_good_input - 2020.04.19 at 19h 42m 10s.xml">
+      <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_optimiser_configuration_with_good_input" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator_test_Web_serve_data - 2020.04.19 at 19h 50m 20s.xml">
+      <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_serve_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator_test_Web_serve_data - 2020.04.19 at 19h 50m 47s.xml">
+      <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_serve_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator_test_Web_serve_data - 2020.04.19 at 19h 52m 05s.xml">
+      <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_serve_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator_test_Web_optimiser_configuration_with_good_input - 2020.04.19 at 19h 52m 19s.xml">
+      <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_optimiser_configuration_with_good_input" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator - 2020.04.19 at 19h 53m 00s.xml">
       <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator_test_Web_optimiser_configuration_with_bad_input - 2020.04.11 at 20h 02m 37s.xml">
-      <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_optimiser_configuration_with_bad_input" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator - 2020.04.11 at 20h 03m 47s.xml">
+    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator - 2020.04.19 at 19h 56m 20s.xml">
       <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_web_optimiser_configurator_py - 2020.04.11 at 20h 04m 20s.xml">
-      <configuration name="Unittests in test_web_optimiser_configurator.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_configuration_of_optimiser_py - 2020.04.11 at 20h 04m 35s.xml">
-      <configuration name="Unittests in test_configuration_of_optimiser.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_web_optimiser_configurator_py - 2020.04.11 at 20h 04m 39s.xml">
-      <configuration name="Unittests in test_web_optimiser_configurator.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_web_optimiser_configurator_py - 2020.04.11 at 20h 06m 35s.xml">
-      <configuration name="Unittests in test_web_optimiser_configurator.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator - 2020.04.11 at 23h 01m 29s.xml">
+    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator - 2020.04.19 at 19h 57m 23s.xml">
       <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator - 2020.04.11 at 23h 02m 13s.xml">
-      <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_web_optimiser_configurator_py - 2020.04.12 at 20h 14m 21s.xml">
+    <history-entry file="Unittests_in_test_web_optimiser_configurator_py - 2020.04.19 at 20h 04m 42s.xml">
       <configuration name="Unittests in test_web_optimiser_configurator.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -722,13 +761,13 @@
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15245901" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49945354" visible="true" weight="0.29805616" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49945354" weight="0.29805616" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50054646" side_tool="true" weight="0.29805616" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32937366" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32937366" />
       <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.49945354" weight="0.32829374" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -772,18 +811,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="kept only the tests that don't need deployment (yet)" />
-    <MESSAGE value="attempted to configure the integration with docker/dockerhub" />
-    <MESSAGE value="modified web services settings" />
-    <MESSAGE value="different docker configuration" />
-    <MESSAGE value="experiments" />
     <MESSAGE value="fixed the deployment with docker" />
     <MESSAGE value="added automation for coverage" />
     <MESSAGE value="added sonarcloud configuration" />
     <MESSAGE value="minimised duplication" />
     <MESSAGE value="attempted configuration for circleCI" />
     <MESSAGE value="attempted configuration for circleCI for tests" />
-    <MESSAGE value="fixing circleCI" />
     <MESSAGE value="fixing sonar on circleCI" />
     <MESSAGE value="attempted to cache dependences on CircleCI" />
     <MESSAGE value="attempted to cache dependencies on CircleCI" />
@@ -797,7 +830,13 @@
     <MESSAGE value="house keeping" />
     <MESSAGE value="added documentation from read the docks" />
     <MESSAGE value="creating a slimmer docker image" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating a slimmer docker image" />
+    <MESSAGE value="configuring travis to build docker images" />
+    <MESSAGE value="setting up appveyor" />
+    <MESSAGE value="changed appserver to wsgi" />
+    <MESSAGE value="fixing circleCI" />
+    <MESSAGE value="fixed the image to run on heroku by inserting variables from the shell" />
+    <MESSAGE value="fixing travisCI" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing travisCI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -819,38 +858,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test/test_web_optimiser_configurator.py</url>
-          <line>76</line>
+          <line>86</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test/test_web_optimiser_configurator.py</url>
-          <line>71</line>
+          <line>81</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/aristoptimiser/data_file.json" />
-    <entry file="file://$PROJECT_DIR$/aristoptimiser/data3.json" />
-    <entry file="file://$PROJECT_DIR$/aristoptimiser/optimiser_configurator.py" />
-    <entry file="file:///usr/lib/python3.6/unittest/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="159" column="24" selection-start-line="159" selection-start-column="24" selection-end-line="159" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aristoptimiser/dummy_app4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aristoptimiser/__init__.py" />
     <entry file="file://$PROJECT_DIR$/aristoptimiser/OptimiserConfigurator.py" />
     <entry file="file://$PROJECT_DIR$/resources/small_good_configuration.json" />
@@ -862,10 +881,7 @@
     <entry file="file://$PROJECT_DIR$/requirements4.txt" />
     <entry file="file://$PROJECT_DIR$/Pipfile.lock" />
     <entry file="file://$PROJECT_DIR$/test/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/aristoptimiser/__main__.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_web_optimiser_configurator.py" />
+    <entry file="file://$PROJECT_DIR$/aristoptimiser/__main__.log" />
     <entry file="file://$PROJECT_DIR$/test/test_configuration_of_optimiser.py" />
     <entry file="file://$PROJECT_DIR$/app4.py" />
     <entry file="file://$PROJECT_DIR$/Dockerfile4" />
@@ -934,13 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aristoptimiser/web_optimiser_configuration.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AUTHORS" />
     <entry file="file://$PROJECT_DIR$/Pipfile">
       <provider selected="true" editor-type-id="text-editor">
@@ -949,10 +958,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.dockerignore">
+    <entry file="file://$PROJECT_DIR$/appveyor.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="1254">
+          <caret line="57" column="71" selection-start-line="57" selection-start-column="71" selection-end-line="57" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -963,41 +972,137 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.dockerignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="704">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heroku.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heroku_key">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis/deploy_heroku.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis/deploy_dockerhub.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_the_deployment_of_containers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+          <folding>
+            <element signature="e#959#974#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="342">
-            <caret line="79" column="65" lean-forward="true" selection-start-line="79" selection-end-line="79" selection-end-column="65" />
+          <first_editor relative-caret-position="-83">
+            <caret line="136" column="7" lean-forward="true" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="7" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+    <entry file="file://$PROJECT_DIR$/aristoptimiser/web_optimiser_configuration.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="24" column="55" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="55" />
+        <state relative-caret-position="1056">
+          <caret line="113" column="38" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="38" />
+          <folding>
+            <element signature="e#954#965#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
+    <entry file="file://$PROJECT_DIR$/test/test_web_optimiser_configurator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="145">
+          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+          <folding>
+            <element signature="e#959#974#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

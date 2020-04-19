@@ -36,11 +36,19 @@ import http.client
 import pprint
 import json
 import os
+import socket
 
 class TestCaseForWebOptimiserConfigurator(unittest.TestCase):
     __URI = 'localhost'
     __port = 5000
     __HTTP_header_for_json = {'Content-type': 'application/json'}
+
+    def setUp(self) -> None:
+        print(socket.gethostname())
+        if socket.gethostname() != "lenovow520":
+            self.__URI = 'aristoptimiser.herokuapp.com'
+            self.__port = 80
+
 
 
     def get_filepath_from_resouces_starting_from_tests_directory(self, target_filename):
@@ -52,6 +60,8 @@ class TestCaseForWebOptimiserConfigurator(unittest.TestCase):
         return path_to_target_file
 
     def test_Web_optimiser_configuration_with_good_input(self):
+
+
 
         connection = http.client.HTTPConnection(self.__URI, self.__port, timeout=10)
 
@@ -78,6 +88,8 @@ class TestCaseForWebOptimiserConfigurator(unittest.TestCase):
 
             self.assertEqual(response.status, 200)
         connection.close()
+
+
 
     def test_Web_optimiser_configuration_with_bad_input(self):
 
@@ -107,8 +119,8 @@ class TestCaseForWebOptimiserConfigurator(unittest.TestCase):
             self.assertEqual(response.status, 405)
         connection.close()
 
-    def test_Web_serve_data(self):
-        connection = http.client.HTTPConnection(self.__URI, self.__port, timeout=10)
+    def test_Web_serve_data_with_provided_input(self):
+        connection = http.client.HTTPConnection(self.__URI, self.__port, timeout=100)
 
         print(connection)
 
@@ -126,7 +138,7 @@ class TestCaseForWebOptimiserConfigurator(unittest.TestCase):
         pp = pprint.PrettyPrinter(indent=4)
         pp.pprint("Headers: {}".format(headers))
         print("Status: {} and reason: {}".format(response.status, response.reason))
-
+        self.assertEqual(response.status, 200)
         print(response.read().decode())
         connection.close()
 

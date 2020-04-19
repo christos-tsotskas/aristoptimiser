@@ -37,4 +37,6 @@ COPY . /home/appuser/app
 RUN chown -R appuser:appuser /home/appuser/app
 USER appuser
 
-CMD ["python", "aristoptimiser/web_optimiser_configuration.py"]
+
+CMD gunicorn --bind 0.0.0.0:$PORT wsgi:application
+#todo: replace with the 'exec form' of docker... something like `CMD ["gunicorn", "--bind 0.0.0.0:"$PORT, "wsgi"]` from https://docs.docker.com/engine/reference/builder/

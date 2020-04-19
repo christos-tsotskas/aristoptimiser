@@ -34,7 +34,7 @@ __status__ = 'Prototype'
 import time
 from flask import Flask, request, jsonify
 
-from OptimiserConfigurator import OptimiserConfigurator
+from .OptimiserConfigurator import OptimiserConfigurator
 import json
 import os
 import logging
