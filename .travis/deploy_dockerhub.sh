@@ -6,7 +6,12 @@ else
 TAG="$TRAVIS_BRANCH"
 fi
 
+docker login -u $HEROKU_USER -p $HEROKU_API_KEY registry.heroku.com
+docker build  -t registry.heroku.com/aristoptimiser/web -f Dockerfile .
+docker push registry.heroku.com/aristoptimiser/web
+heroku container:release web --app=aristoptimiser
+heroku ps:scale web=1 -a aristoptimiser
 
-echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin
-docker build --no-cache -t $DOCKER_REPO:$TAG -f Dockerfile .
-docker push $DOCKER_REPO:$TAG
+#echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin
+#docker build --no-cache -t $DOCKER_REPO:$TAG -f Dockerfile .
+#docker push $DOCKER_REPO:$TAG

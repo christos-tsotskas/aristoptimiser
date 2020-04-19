@@ -148,3 +148,4 @@ https://devcenter.heroku.com/articles/runtime-principles
 https://testdriven.io/blog/deploying-flask-to-heroku-with-docker-and-gitlab/
 https://stackabuse.com/deploying-a-flask-application-to-heroku/?fbclid=IwAR1UjkOizjJOQU_X7KwfZ1Hn7SMWeSnAJN3SrQMprwaMIhxDlKZKiC5nQfI
 https://stackoverflow.com/questions/60013369/deploying-flask-with-celery-app-on-heroku-using-heroku-yml
+https://sweetcode.io/flask-app-github-travis-heroku/
