@@ -18,40 +18,71 @@
 
 
 
-sudo: required
-services
-- docker
 
-addons:
-  sonarcloud:
-    organization: "christos-tsotskas"
-
-
-script:
-  # other script steps might be done before running the actual analysis
-  - sonar-scanner
+services:
+  - docker
+#
+#addons:
+#  sonarcloud:
+#    organization: "christos-tsotskas"
+#
+#
+#script:
+#  # other script steps might be done before running the actual analysis
+#  - sonar-scanner
 
 language: python
+os: linux
+dist: bionic
 
 python:
   - "3.6"      # current default Python on Travis CI
-  - "3.7"
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: $HEROKU_API_KEY
 
 # command to install dependencies
 install:
-  - pip install -r requirements.txt
+  - pip install pipenv
 # command to run tests
 script:
-#  - python -m unittest discover -s test -v #approach 1
-#  - pytest #approach 2
-  - python -m pytest -v test/test_configuration_of_optimiser.py #approach 3
+  - pipenv install
+  - pipenv run pytest  --junit-xml=test-results/xunit2/results.xml -v test/test_configuration_of_optimiser.py
+  - pipenv run coverage run aristoptimiser/OptimiserConfigurator.py
+  - pipenv run coverage report -m
+  - pipenv run coverage html
+  - pipenv run coverage xml -i
+  - pipenv run coverage xml -i -o test-results/coverage.xml
+  - pipenv run codecov
 #linting test
 #- flake
-  - python -m coverage run aristoptimiser/OptimiserConfigurator.py
-  - python -m coverage report -m
-  - python -m coverage xml -i
-
 
 
 after_success:
 - sh .travis/deploy_dockerhub.sh
+#brought up from below
+- sh .travis/deploy_heroku.sh
+- heroku ps:scale web=1 -a aristoptimiser
+- pipenv run pytest -v test/test_the_deployment_of_containers.py
+- pipenv run pytest -v test/test_web_optimiser_configurator.py
+- heroku ps:scale web=0 -a aristoptimiser
+
+
+#deploy:
+#- sh .travis/deploy_heroku.sh
+#
+#after_deploy:
+#- heroku ps:scale web=1 -a aristoptimiser
+#- pipenv run pytest -v test/test_the_deployment_of_containers.py
+#- pipenv run pytest -v test/test_web_optimiser_configurator.py
+#- heroku ps:scale web=0 -a aristoptimiser
+
+#after_success: "Testing Successful Deployment on Heroku"
+#  - sh .travis/deploy_dockerhub.sh
+#  - heroku ps:scale web=1 -a aristoptimiser
+#  - pipenv run pytest -v test/test_the_deployment_of_containers.py
+#  - heroku ps:scale web=0 -a aristoptimiser
+
+

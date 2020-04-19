@@ -1,11 +1,42 @@
-FROM ubuntu:18.04
-RUN apt-get update -y
-#RUN apt-get install -y python-pip python-dev build-essential
-RUN apt-get install -y python3.6 python3-pip
-COPY . /app
-WORKDIR /app
-RUN pip3 install -r requirements.txt
-#ENTRYPOINT ["python3"]
-#CMD ["python3", "app.py"]  #worked
+FROM python:3.6-slim-buster as base
 
-CMD ["python3", "aristoptimiser/web_optimiser_configuration.py"]
+# Setup env
+ENV LANG C.UTF-8
+ENV LC_ALL C.UTF-8
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONFAULTHANDLER 1
+
+
+FROM base AS python-deps
+
+# Install pipenv and compilation dependencies
+RUN pip install pipenv
+RUN apt-get update && apt-get install -y --no-install-recommends gcc
+
+# Install python dependencies in /.venv
+COPY Pipfile .
+COPY Pipfile.lock .
+RUN PIPENV_VENV_IN_PROJECT=1 pipenv install --deploy
+RUN PIPENV_VENV_IN_PROJECT=1 pipenv install flask
+
+
+FROM base AS runtime
+
+# Copy virtual env from python-deps stage
+COPY --from=python-deps /.venv /.venv
+ENV PATH="/.venv/bin:$PATH"
+
+# Create and switch to a new user
+RUN useradd --create-home appuser
+WORKDIR /home/appuser/app
+
+# Install application into container
+
+
+COPY . /home/appuser/app
+RUN chown -R appuser:appuser /home/appuser/app
+USER appuser
+
+
+CMD gunicorn --bind 0.0.0.0:$PORT wsgi:application
+#todo: replace with the 'exec form' of docker... something like `CMD ["gunicorn", "--bind 0.0.0.0:"$PORT, "wsgi"]` from https://docs.docker.com/engine/reference/builder/
