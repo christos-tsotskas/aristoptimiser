@@ -111,6 +111,12 @@ heroku container:release web --app=aristoptimiser
 
 # CI
 
+## TravisCI
+
+### References
+https://docs.travis-ci.com/user/job-lifecycle/
+https://blog.travis-ci.com/2019-08-07-extensive-python-testing-on-travis-ci
+
 ## appveyor
 
 instructions: https://www.appveyor.com/docs/appveyor-yml/

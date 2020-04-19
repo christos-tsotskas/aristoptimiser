@@ -18,7 +18,7 @@
 
 
 
-sudo: required
+
 services:
   - docker
 #
@@ -32,6 +32,8 @@ services:
 #  - sonar-scanner
 
 language: python
+os: linux
+dist: bionic
 
 python:
   - "3.6"      # current default Python on Travis CI
@@ -57,7 +59,7 @@ script:
 #linting test
 #- flake
 
-after_script: "Testing Successful Deployment on Heroku"
+after_success: "Testing Successful Deployment on Heroku"
   - sh .travis/deploy_dockerhub.sh
   - heroku ps:scale web=1 -a aristoptimiser
   - pipenv run pytest -v test/test_the_deployment_of_containers.py
