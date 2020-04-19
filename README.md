@@ -30,6 +30,7 @@ github -> circleCI -> sonarcloud -> docker -> heroku
 - https://docs.docker.com/engine/reference/commandline/login/#credentials-store
 - more configuration for the webserver ( such as https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-14-04)
 - local integration test
+- http://doc.pytest.org/en/latest/example/parametrize.html
 
 # R&D
 - possibly use Nameko for microservices (https://www.toptal.com/python/introduction-python-microservices-nameko)

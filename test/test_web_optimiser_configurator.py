@@ -120,7 +120,7 @@ class TestCaseForWebOptimiserConfigurator(unittest.TestCase):
         connection.close()
 
     def test_Web_serve_data(self):
-        connection = http.client.HTTPConnection(self.__URI, self.__port, timeout=10)
+        connection = http.client.HTTPConnection(self.__URI, self.__port, timeout=100)
 
         print(connection)
 
