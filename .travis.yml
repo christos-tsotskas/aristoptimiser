@@ -62,7 +62,15 @@ script:
 
 after_success:
 - sh .travis/deploy_dockerhub.sh
+
+
+deploy:
 - sh .travis/deploy_heroku.sh
+
+after_deploy:
+- heroku ps:scale web=1 -a aristoptimiser
+- pipenv run pytest -v test/test_the_deployment_of_containers.py
+- heroku ps:scale web=0 -a aristoptimiser
 
 #after_success: "Testing Successful Deployment on Heroku"
 #  - sh .travis/deploy_dockerhub.sh
