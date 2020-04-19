@@ -36,6 +36,10 @@ language: python
 python:
   - "3.6"      # current default Python on Travis CI
 
+deploy:
+  provider: heroku
+  api_key:
+    secure: $HEROKU_API_KEY
 
 # command to install dependencies
 install:
@@ -53,8 +57,8 @@ script:
 #linting test
 #- flake
 
-after_script:
-#  - name: "Testing Successful Deployment on Heroku"
+after_script: "Testing Successful Deployment on Heroku"
+  - sh .travis/deploy_dockerhub.sh
   - heroku ps:scale web=1 -a aristoptimiser
   - pipenv run pytest -v test/test_the_deployment_of_containers.py
   - heroku ps:scale web=0 -a aristoptimiser
@@ -62,4 +66,3 @@ after_script:
 
 
 after_success:
-- sh .travis/deploy_dockerhub.sh
