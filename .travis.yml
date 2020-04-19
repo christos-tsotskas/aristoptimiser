@@ -64,5 +64,3 @@ after_script: "Testing Successful Deployment on Heroku"
   - heroku ps:scale web=0 -a aristoptimiser
 
 
-
-after_success:
