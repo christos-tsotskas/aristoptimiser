@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e36e1618-d1e0-4a8d-929a-ef606e48c80a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.travis/deploy_heroku.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis/deploy_dockerhub.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.travis/deploy_dockerhub.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_web_optimiser_configurator.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_web_optimiser_configurator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis/deploy_dockerhub.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="198">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -30,8 +31,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_the_deployment_of_containers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+            <state relative-caret-position="239">
+              <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+              <folding>
+                <element signature="e#959#974#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,17 +43,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="62" column="14" lean-forward="true" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+            <state relative-caret-position="173">
+              <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.travis/deploy_heroku.sh">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_web_optimiser_configurator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+            <state relative-caret-position="277">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+              <folding>
+                <element signature="e#959#974#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -59,24 +75,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="151">
               <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runtime.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -93,18 +91,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+            <state relative-caret-position="1408">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="3146">
-                <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+              <first_editor relative-caret-position="374">
+                <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" selection-end-column="30" />
               </first_editor>
               <second_editor />
             </state>
@@ -159,7 +157,6 @@
         <option value="$PROJECT_DIR$/app4.py" />
         <option value="$PROJECT_DIR$/sonar-projet.properties" />
         <option value="$PROJECT_DIR$/test/test_configuration_of_optimiser.py" />
-        <option value="$PROJECT_DIR$/test/test_web_optimiser_configurator.py" />
         <option value="$PROJECT_DIR$/pytest.ini" />
         <option value="$PROJECT_DIR$/sonar-project.properties" />
         <option value="$PROJECT_DIR$/docs/index.md" />
@@ -178,10 +175,12 @@
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/test/test_the_deployment_of_containers.py" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/.travis/deploy_dockerhub.sh" />
         <option value="$PROJECT_DIR$/.travis/deploy_heroku.sh" />
+        <option value="$PROJECT_DIR$/test/conftest.py" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/test/test_web_optimiser_configurator.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -259,28 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_the_deployment_of_containers.TestCaseForWebOptimiserConfigurator.test_Web_serve_data">
-    <configuration name="web_optimiser_configuration" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="aristoptimiser" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aristoptimiser" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aristoptimiser/web_optimiser_configuration.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in test_web_optimiser_configurator.py">
     <configuration name="Unittests for test_the_deployment_of_containers.TestCaseForWebOptimiserConfigurator.test_Web_serve_data" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="aristoptimiser" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -309,7 +287,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_configuration_of_optimiser.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_optimiser_configuration_with_good_input" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="aristoptimiser" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,8 +297,22 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_configuration_of_optimiser.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_optimiser_configuration_with_good_input&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_serve_data" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="aristoptimiser" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_serve_data&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests in test_web_optimiser_configurator.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -354,11 +346,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_the_deployment_of_containers.TestCaseForWebOptimiserConfigurator.test_Web_serve_data" />
         <item itemvalue="Python tests.Unittests in test_web_optimiser_configurator.py" />
-        <item itemvalue="Python tests.Unittests in test_configuration_of_optimiser.py" />
         <item itemvalue="Python tests.Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator" />
-        <item itemvalue="Python.web_optimiser_configuration" />
+        <item itemvalue="Python tests.Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_optimiser_configuration_with_good_input" />
+        <item itemvalue="Python tests.Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_serve_data" />
+        <item itemvalue="Python tests.Unittests for test_the_deployment_of_containers.TestCaseForWebOptimiserConfigurator.test_Web_serve_data" />
       </list>
     </recent_temporary>
   </component>
@@ -374,20 +366,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586590555617</updated>
-    </task>
-    <task id="LOCAL-00051" summary="added coverage for codecov">
-      <created>1586817674570</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1586817674570</updated>
-    </task>
-    <task id="LOCAL-00052" summary="added coverage for codecov">
-      <created>1586817885137</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1586817885138</updated>
     </task>
     <task id="LOCAL-00053" summary="added coverage for codecov">
       <created>1586818105813</created>
@@ -718,46 +696,61 @@
       <option name="project" value="LOCAL" />
       <updated>1587314687495</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="fixing travisCI">
+      <created>1587316026879</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1587316026880</updated>
+    </task>
+    <task id="LOCAL-00101" summary="fixing travisCI">
+      <created>1587317080005</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1587317080005</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator - 2020.04.11 at 20h 03m 47s.xml">
+    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator_test_Web_optimiser_configuration_with_good_input - 2020.04.19 at 19h 41m 39s.xml">
+      <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_optimiser_configuration_with_good_input" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator_test_Web_optimiser_configuration_with_good_input - 2020.04.19 at 19h 41m 56s.xml">
+      <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_optimiser_configuration_with_good_input" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator_test_Web_optimiser_configuration_with_good_input - 2020.04.19 at 19h 42m 10s.xml">
+      <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_optimiser_configuration_with_good_input" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator_test_Web_serve_data - 2020.04.19 at 19h 50m 20s.xml">
+      <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_serve_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator_test_Web_serve_data - 2020.04.19 at 19h 50m 47s.xml">
+      <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_serve_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator_test_Web_serve_data - 2020.04.19 at 19h 52m 05s.xml">
+      <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_serve_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator_test_Web_optimiser_configuration_with_good_input - 2020.04.19 at 19h 52m 19s.xml">
+      <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator.test_Web_optimiser_configuration_with_good_input" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator - 2020.04.19 at 19h 53m 00s.xml">
       <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_web_optimiser_configurator_py - 2020.04.11 at 20h 04m 20s.xml">
-      <configuration name="Unittests in test_web_optimiser_configurator.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_configuration_of_optimiser_py - 2020.04.11 at 20h 04m 35s.xml">
-      <configuration name="Unittests in test_configuration_of_optimiser.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_web_optimiser_configurator_py - 2020.04.11 at 20h 04m 39s.xml">
-      <configuration name="Unittests in test_web_optimiser_configurator.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_web_optimiser_configurator_py - 2020.04.11 at 20h 06m 35s.xml">
-      <configuration name="Unittests in test_web_optimiser_configurator.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator - 2020.04.11 at 23h 01m 29s.xml">
+    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator - 2020.04.19 at 19h 56m 20s.xml">
       <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator - 2020.04.11 at 23h 02m 13s.xml">
+    <history-entry file="Unittests_for_test_web_optimiser_configurator_TestCaseForWebOptimiserConfigurator - 2020.04.19 at 19h 57m 23s.xml">
       <configuration name="Unittests for test_web_optimiser_configurator.TestCaseForWebOptimiserConfigurator" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_web_optimiser_configurator_py - 2020.04.12 at 20h 14m 21s.xml">
-      <configuration name="Unittests in test_web_optimiser_configurator.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_the_deployment_of_containers_TestCaseForWebOptimiserConfigurator_test_Web_serve_data - 2020.04.19 at 16h 22m 06s.xml">
-      <configuration name="Unittests for test_the_deployment_of_containers.TestCaseForWebOptimiserConfigurator.test_Web_serve_data" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_the_deployment_of_containers_TestCaseForWebOptimiserConfigurator_test_Web_serve_data - 2020.04.19 at 16h 23m 55s.xml">
-      <configuration name="Unittests for test_the_deployment_of_containers.TestCaseForWebOptimiserConfigurator.test_Web_serve_data" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="1105" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15245901" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15245901" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49945354" weight="0.29805616" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50054646" side_tool="true" weight="0.29805616" />
@@ -765,7 +758,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32937366" />
       <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.49945354" weight="0.32829374" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -856,35 +849,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test/test_web_optimiser_configurator.py</url>
-          <line>76</line>
+          <line>86</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test/test_web_optimiser_configurator.py</url>
-          <line>71</line>
+          <line>81</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/lib/python3.6/unittest/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="159" column="24" selection-start-line="159" selection-start-column="24" selection-end-line="159" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aristoptimiser/dummy_app4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aristoptimiser/__init__.py" />
     <entry file="file://$PROJECT_DIR$/aristoptimiser/OptimiserConfigurator.py" />
     <entry file="file://$PROJECT_DIR$/resources/small_good_configuration.json" />
@@ -897,7 +873,6 @@
     <entry file="file://$PROJECT_DIR$/Pipfile.lock" />
     <entry file="file://$PROJECT_DIR$/test/__init__.py" />
     <entry file="file://$PROJECT_DIR$/aristoptimiser/__main__.log" />
-    <entry file="file://$PROJECT_DIR$/test/test_web_optimiser_configurator.py" />
     <entry file="file://$PROJECT_DIR$/test/test_configuration_of_optimiser.py" />
     <entry file="file://$PROJECT_DIR$/app4.py" />
     <entry file="file://$PROJECT_DIR$/Dockerfile4" />
@@ -1040,32 +1015,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_the_deployment_of_containers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/heroku_key">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="3146">
-            <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis2.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1074,24 +1025,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="62" column="14" lean-forward="true" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis/deploy_dockerhub.sh">
+    <entry file="file://$PROJECT_DIR$/.travis/deploy_heroku.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis/deploy_heroku.sh">
+    <entry file="file://$PROJECT_DIR$/test/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis/deploy_dockerhub.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_the_deployment_of_containers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+          <folding>
+            <element signature="e#959#974#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_web_optimiser_configurator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#959#974#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="374">
+            <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

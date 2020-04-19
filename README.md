@@ -29,6 +29,7 @@ github -> circleCI -> sonarcloud -> docker -> heroku
 - add some badges
 - https://docs.docker.com/engine/reference/commandline/login/#credentials-store
 - more configuration for the webserver ( such as https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-14-04)
+- local integration test
 
 # R&D
 - possibly use Nameko for microservices (https://www.toptal.com/python/introduction-python-microservices-nameko)
@@ -81,7 +82,7 @@ docker build --no-cache -t ctsotskas/aristohub:latest -f Dockerfile .
 
 run with
 ```bash
-docker run -rm -d -p 5000:5000 ctsotskas/aristohub:latest
+docker run -rm -d -p 5000:5000 -e PORT=5000 ctsotskas/aristohub:latest
 ```
 
 
@@ -93,7 +94,7 @@ docker push ctsotskas/aristohub:latest
 
 ```
 
-tag (for Heroku) & push to Heroku
+tag for Heroku & push to Heroku
 
 HEROKU_APP_NAME: <APP_NAME>
 HEROKU_REGISTRY_IMAGE: registry.heroku.com/${HEROKU_APP_NAME}/web
