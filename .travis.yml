@@ -42,7 +42,6 @@ install:
   - pip install pipenv
 # command to run tests
 script:
-
   - pipenv install
   - pipenv run pytest  --junit-xml=test-results/xunit2/results.xml -v test/test_configuration_of_optimiser.py
   - pipenv run coverage run aristoptimiser/OptimiserConfigurator.py
@@ -54,7 +53,8 @@ script:
 #linting test
 #- flake
 
-script:
+after_script:
+#  - name: "Testing Successful Deployment on Heroku"
   - heroku ps:scale web=1 -a aristoptimiser
   - pipenv run pytest -v test/test_the_deployment_of_containers.py
   - heroku ps:scale web=0 -a aristoptimiser
