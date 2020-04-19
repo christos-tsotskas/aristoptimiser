@@ -119,7 +119,7 @@ class TestCaseForWebOptimiserConfigurator(unittest.TestCase):
             self.assertEqual(response.status, 405)
         connection.close()
 
-    def test_Web_serve_data(self):
+    def test_Web_serve_data_with_provided_input(self):
         connection = http.client.HTTPConnection(self.__URI, self.__port, timeout=100)
 
         print(connection)
@@ -138,7 +138,7 @@ class TestCaseForWebOptimiserConfigurator(unittest.TestCase):
         pp = pprint.PrettyPrinter(indent=4)
         pp.pprint("Headers: {}".format(headers))
         print("Status: {} and reason: {}".format(response.status, response.reason))
-
+        self.assertEqual(response.status, 200)
         print(response.read().decode())
         connection.close()
 

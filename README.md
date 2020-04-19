@@ -138,7 +138,7 @@ run (after pushing)
 heroku container:release -a aristoptimiser web
 ```
 
-check from broswer https://aristoptimiser.herokuapp.com/
+check from browser https://aristoptimiser.herokuapp.com/
 
 stop all activity
 ```bash
