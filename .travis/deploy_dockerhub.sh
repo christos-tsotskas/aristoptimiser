@@ -12,6 +12,6 @@ docker push registry.heroku.com/aristoptimiser/web
 heroku container:release web --app=aristoptimiser
 
 
-#echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin
-#docker build --no-cache -t $DOCKER_REPO:$TAG -f Dockerfile .
-#docker push $DOCKER_REPO:$TAG
+echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin
+docker build --no-cache -t $DOCKER_REPO:$TAG -f Dockerfile .
+docker push $DOCKER_REPO:$TAG
