@@ -55,7 +55,9 @@ script:
 #- flake
 
 script:
-  - docker build  -t registry.heroku.com/aristoptimiser/web -f Dockerfile .
+  - heroku ps:scale web=1 -a aristoptimiser
+  - pipenv run pytest -v test/test_the_deployment_of_containers.py
+  - heroku ps:scale web=0 -a aristoptimiser
 
 
 
