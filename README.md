@@ -118,6 +118,7 @@ heroku container:release web --app=aristoptimiser
 ### References
 https://docs.travis-ci.com/user/job-lifecycle/
 https://blog.travis-ci.com/2019-08-07-extensive-python-testing-on-travis-ci
+https://docs.travis-ci.com/user/customizing-the-build#Rows-that-are-Allowed-to-Fail
 
 ## appveyor
 
